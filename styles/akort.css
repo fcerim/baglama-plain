@@ -1,0 +1,64 @@
+/*selected nav-link is bolded*/
+.nav-link-akort {
+  font-weight: bold;
+}
+
+main {
+  margin: 0;
+}
+
+.root-selector-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+
+.root-note-button {
+  margin: 8px;
+  background-color: var(--primarylight);
+  color: var(--primarydark);
+  border-style: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/*this class will be added to the selected root*/
+.selected-root-bold {
+  background-color: var(--primarydark);
+  color: var(--primarylight);
+}
+
+/*to keep the content of the tuner guide at the center*/
+.tuner-guide {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.tuner-guide-title {
+  text-align: center;
+  display:block;
+  color: var(--text50);
+}
+
+.tuner-result-container {
+  position: relative;
+  align-items: center;
+}
+
+/*to keep the note buttons on baglama*/
+.tuner-result {
+  position: absolute;
+  left: -32px;
+  bottom: 40px;
+}
+
+.tuner-result-note {
+  margin: 24px 0px;
+  font-size: 16px;
+  color: var(--text50);
+  font-family: Arial, Helvetica, sans-serif;
+}
+

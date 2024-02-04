@@ -1,0 +1,91 @@
+main {
+  margin-top: 256px;
+  display: flex;
+  justify-content: center;
+}
+
+.song-selection-menu {
+  justify-content: center;
+}
+
+.song-select-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text50);
+}
+
+.song-selection-menu button {
+  width: 80vw;
+  max-width: 1240px;
+  aspect-ratio: 16;
+  border-radius: 0px;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-width: 1px;
+  padding: 8px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+#song-list-header {
+  font-weight: 1000;
+  font-size: 2rem;
+}
+
+.song-selection-menu button p {
+  margin: 16px;
+  font-size: 1rem;
+  color: var(--text50);
+}
+
+.song-button-title {
+  text-align: left;
+}
+
+.song-button-region {
+  text-align: center;
+}
+
+.song-button-difficulty {
+  text-align: right;
+}
+
+input {
+  border: 1px solid #ccc;
+}
+
+/*STYLING FOR TABLE*/
+
+.song-selection-table {
+  width: 80vw;
+  border-collapse: collapse;
+}
+
+.song-selection-table thead {
+  text-align: left;
+  border-bottom: 1px solid black;
+  font-size: 24px;
+  height: 64px;
+}
+
+.song-list-table tr{
+  border-bottom: 1px solid;
+  border-color: black;
+  font-size: 16px;
+  cursor: pointer;
+  height: 48px;
+}
+
+.song-list-table tr:nth-child(odd) {
+  background-color:transparent;
+  
+}
+.song-list-table tr:nth-child(even) {
+  background-color: bisque;
+}

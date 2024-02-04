@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bağlama Çal</title>
+    <link rel="icon" type="image/x-icon" href="images/baglama_header.png" />
+    <!--favicon-->
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="Kısa Sap Bağlama Nasıl Akort Edilir?" />
+    <meta
+      name="keywords"
+      content="Bağlama, Saz, Akort, Nota, Düzen, Kısa Sap"
+    />
+    <meta name="author" content="Fatih Celil Erim" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/akort.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+
+    <style>
+      body {
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="banner">
+        <div class="logo-container">
+          <img class="logo" src="images/baglama_header.png" />
+        </div>
+        <div class="header-text-container">
+          <p class="title">Bağlama Çal</p>
+          <p class="subtitle">Yeni Başlayanlar için Bağlama Çalma Uygulaması</p>
+        </div>
+      </div>
+      <nav>
+        <a class="nav-link-sarki" href="index.html">Eser Çal</a>
+        <a class="nav-link-akort" href="akort.html">Akort</a>
+        <a class="nav-link-baglama" href="baglama-nota.html"
+          >Bağlamada Notalar</a
+        >
+        <a class="nav-link-hakkinda" href="hakkinda.html">Hakkında</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="root-selector-menu">
+        <div style="color: #913e14; font-weight: bold; margin-right: 16px">
+          Karar Sesi
+        </div>
+        <button
+          class="root-note-button js-button-0"
+          onclick="selectedRoot = 0; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+        >
+          La <br />(A)
+        </button>
+        <button
+          class="root-note-button js-button-2"
+          onclick="selectedRoot = 2; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+        >
+          Si <br />(B)
+        </button>
+        <button
+          class="root-note-button js-button-3"
+          onclick="selectedRoot = 3; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+        >
+          Do <br />(C)
+        </button>
+        <button
+          class="root-note-button js-button-5"
+          onclick="selectedRoot = 5; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+        >
+          Re <br />(D)
+        </button>
+        <button
+          class="root-note-button js-button-7"
+          onclick="selectedRoot = 7; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+        >
+          Mi <br />(E)
+        </button>
+        <button
+          class="root-note-button js-button-8"
+          onclick="selectedRoot = 8; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+        >
+          Fa <br />(F)
+        </button>
+        <button
+          class="root-note-button js-button-10"
+          onclick="selectedRoot = 10; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+        >
+          Sol <br />(G)
+        </button>
+      </section>
+
+      <section class="tuner-guide">
+        <div class="tuner-result-container">
+          <div class="tuner-guide-title">Kısa Sap Bağlama Akort Düzeni</div>
+          <img src="images/baglama_sap.jpg" />
+          <div class="tuner-result">
+            <div class="tuner-result-note js-bottom-strings strings"></div>
+            <div class="tuner-result-note js-middle-strings strings"></div>
+            <div class="tuner-result-note js-top-strings strings"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="scripts/akort.js"></script>
+  </body>
+</html>

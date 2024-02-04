@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bağlama Çal</title>
+    <link rel="icon" type="image/x-icon" href="images/baglama_header.png" />
+    <!--favicon-->
+
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Kısa sap bağlama ile sevdiğin eserleri çal. Kısa sap bağlama ile türküsü nasıl çalınır?"
+    />
+    <meta
+      name="keywords"
+      content="Bağlama, Saz, Eser, Nota, Türkü, Solfej, Kısa Sap"
+    />
+    <meta name="author" content="Fatih Celil Erim" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/eser-cal.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+
+    <style>
+      body {
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="banner">
+        <div class="logo-container">
+          <img class="logo" src="images/baglama_header.png" />
+        </div>
+        <div class="header-text-container">
+          <p class="title">Bağlama Çal</p>
+          <p class="subtitle">Yeni Başlayanlar için Bağlama Çalma Uygulaması</p>
+        </div>
+      </div>
+      <nav>
+        <a class="nav-link-sarki" href="index.html">Eser Çal</a>
+        <a class="nav-link-akort" href="akort.html">Akort</a>
+        <a class="nav-link-baglama" href="baglama-nota.html"
+          >Bağlamada Notalar</a
+        >
+        <a class="nav-link-hakkinda" href="hakkinda.html">Hakkında</a>
+      </nav>
+    </header>
+
+    <main>
+      <!--
+      <section class="filter-container">
+        <div class="difficulty-filter"></div>
+        <div class="region-filter"></div>
+      </section>
+      <ul class="song-selection-menu">
+        <p class="song-select-title">Eser Seç</p>
+        <button id="song-list-header">
+          <p class="song-button-title">İSİM</p>
+          <p class="song-button-region">YÖRE</p>
+          <p class="song-button-difficulty">ZORLUK</p>
+        </button>
+      </ul>
+      -->
+      <table class="song-selection-table">
+        <thead>
+          <tr>
+            <th>İsim</th>
+            <th>Yöre</th>
+            <th>Zorluk</th>
+          </tr>
+        </thead>
+        <tbody class="song-list-table"></tbody>
+      </table>
+    </main>
+
+    <script type="module" src="songs/songs.js"></script>
+    <script type="module" src="scripts/eser-cal.js"></script>
+  </body>
+</html>

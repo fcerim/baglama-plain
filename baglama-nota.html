@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bağlama Çal</title>
+    <link rel="icon" type="image/x-icon" href="images/baglama_header.png" />
+    <!--favicon-->
+
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Kısa Sap Bağlamada Perde Yerleri. Kısa Sap Bağlamada hangi perde hangi notaya karşılık gelir?"
+    />
+    <meta name="keywords" content="Bağlama, Saz, Nota, Düzen, Kısa Sap" />
+    <meta name="author" content="Fatih Celil Erim" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/baglama-nota.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+
+    <style>
+      body {
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="banner">
+        <div class="logo-container">
+          <img class="logo" src="images/baglama_header.png" />
+        </div>
+        <div class="header-text-container">
+          <p class="title">Bağlama Çal</p>
+          <p class="subtitle">Yeni Başlayanlar için Bağlama Çalma Uygulaması</p>
+        </div>
+      </div>
+      <nav>
+        <a class="nav-link-sarki" href="index.html">Eser Çal</a>
+        <a class="nav-link-akort" href="akort.html">Akort</a>
+        <a class="nav-link-baglama" href="baglama-nota.html"
+          >Bağlamada Notalar</a
+        >
+        <a class="nav-link-hakkinda" href="hakkinda.html">Hakkında</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="standard-notation"></section>
+      <section class="baglama-keyboard">
+        <div class="main-subtitle">
+          Kısa Sap Bağlama - La Karar için Nota Yerleri
+        </div>
+        <div class="baglama-keyboard-container">
+          <img src="images/baglama_sap.jpg" />
+        </div>
+        <div class="buttons-container">
+          <div class="bottom-strings-buttons">
+            <button class="button-midD" onclick="audioD.play()">Re</button>
+            <button class="button-midD#" onclick="audioEb.play()">
+              Mi&flat;
+            </button>
+            <button class="button-midD#" onclick="audioEb2.play()">
+              Mi&flat;<sup>2</sup>
+            </button>
+            <button class="button-midE" onclick="audioE.play()">Mi</button>
+            <button class="button-midF" onclick="audioF.play()">Fa</button>
+            <button class="button-midF#" onclick="audioFs3.play()">
+              Fa&sharp;<sup>3</sup>
+            </button>
+            <button class="button-midF#" onclick="audioFs.play()">
+              Fa&sharp;
+            </button>
+            <button class="button-midG" onclick="audioG.play()">Sol</button>
+            <button class="button-midG#" onclick="audioAb.play()">
+              La&flat;
+            </button>
+            <button class="button-midG#" onclick="audioAb2.play()">
+              La&flat;<sup>2</sup>
+            </button>
+            <button class="button-highA" onclick="audioAh.play()">La</button>
+            <button class="button-highA#" onclick="audioBbh.play()">
+              Si&flat;
+            </button>
+            <button class="button-highA#" onclick="audioBb2h.play()">
+              Si&flat;<sup>2</sup>
+            </button>
+            <button class="button-highB" onclick="audioBh.play()">Si</button>
+            <button class="button-highC" onclick="audioCh.play()">Do</button>
+            <button class="button-highC#" onclick="audioCs3h.play()">
+              Do&sharp;<sup>3</sup>
+            </button>
+            <button class="button-highC#" onclick="audioCsh.play()">
+              Do&sharp;
+            </button>
+            <button class="button-highD" onclick="audioDh.play()">Re</button>
+            <button class="button-highD#" onclick="audioEbh.play()">
+              Mi&flat;
+            </button>
+            <button class="button-highE" onclick="audioEh.play()">Mi</button>
+          </div>
+          <div class="middle-strings-buttons">
+            <button class="button-lowG" onclick="audioGl.play()">Sol</button>
+            <button class="button-lowG#" onclick="audioAbl.play()">
+              La&flat;
+            </button>
+            <button class="button-lowG#" onclick="audioAb2l.play()">
+              La&flat;<sup>2</sup>
+            </button>
+            <button class="button-midA" onclick="audioA.play()">La</button>
+            <button class="button-midA#" onclick="audioBb.play()">
+              Si&flat;
+            </button>
+            <button class="button-midA#" onclick="audioBb2.play()">
+              Si&flat;<sup>2</sup>
+            </button>
+            <button class="button-midB" onclick="audioB.play()">Si</button>
+            <button class="button-midC" onclick="audioC.play()">Do</button>
+            <button class="button-midC#" onclick="audioCs3.play()">
+              Do&sharp;<sup>3</sup>
+            </button>
+            <button class="button-midC#" onclick="audioCs.play()">
+              Do&sharp;
+            </button>
+            <button class="button-midD" onclick="audioD.play()">Re</button>
+            <button class="button-midD#" onclick="audioEb.play()">
+              Mi&flat;
+            </button>
+            <button class="button-midD#" onclick="audioEb2.play()">
+              Mi&flat;<sup>2</sup>
+            </button>
+            <button class="button-midE" onclick="audioE.play()">Mi</button>
+            <button class="button-midF" onclick="audioF.play()">Fa</button>
+            <button class="button-midF#" onclick="audioFs3.play()">
+              Fa&sharp;<sup>3</sup>
+            </button>
+            <button class="button-midF#" onclick="audioFs.play()">
+              Fa&sharp;
+            </button>
+            <button class="button-midG" onclick="audioG.play()">Sol</button>
+            <button class="button-midG#" onclick="audioAb.play()">
+              La&flat;
+            </button>
+            <button class="button-highA" onclick="audioAh.play()">La</button>
+          </div>
+          <div class="top-strings-buttons">
+            <button class="button-midA" onclick="audioA.play()">La</button>
+            <button class="button-midA#" onclick="audioBb.play()">
+              Si&flat;
+            </button>
+            <button class="button-midA#" onclick="audioBb2.play()">
+              Si&flat;<sup>2</sup>
+            </button>
+            <button class="button-midB" onclick="audioB.play()">Si</button>
+            <button class="button-midC" onclick="audioC.play()">Do</button>
+            <button class="button-midC#" onclick="audioCs3.play()">
+              Do&sharp;<sup>3</sup>
+            </button>
+            <button class="button-midC#" onclick="audioCs.play()">
+              Do&sharp;
+            </button>
+            <button class="button-midD" onclick="audioD.play()">Re</button>
+            <button class="button-midD#" onclick="audioEb.play()">
+              Mi&flat;
+            </button>
+            <button class="button-midD#" onclick="audioEb2.play()">
+              Mi&flat;<sup>2</sup>
+            </button>
+            <button class="button-midE" onclick="audioE.play()">Mi</button>
+            <button class="button-midF" onclick="audioF.play()">Fa</button>
+            <button class="button-midF#" onclick="audioFs3.play()">
+              Fa&sharp;<sup>3</sup>
+            </button>
+            <button class="button-midF#" onclick="audioFs.play()">
+              Fa&sharp;
+            </button>
+            <button class="button-midG" onclick="audioG.play()">Sol</button>
+            <button class="button-midG#" onclick="audioAb.play()">
+              La&flat;
+            </button>
+            <button class="button-midG#" onclick="audioAb2.play()">
+              La&flat;<sup>2</sup>
+            </button>
+            <button class="button-highA" onclick="audioAh.play()">La</button>
+            <button class="button-highA#" onclick="audioBbh.play()">
+              Si&flat;
+            </button>
+            <button class="button-highB" onclick="audioBh.play()">Si</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="scripts/baglama-nota.js"></script>
+  </body>
+</html>
