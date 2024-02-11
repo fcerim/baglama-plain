@@ -65,6 +65,7 @@ input {
 .song-selection-table {
   width: 80vw;
   border-collapse: collapse;
+  margin-bottom: 64px;
 }
 
 .song-selection-table thead {

@@ -180,20 +180,83 @@ const evlerininOnuBulgurKazani = {
   notation: 'https://www.notaarsivleri.com/NotaMuzik/evlerinin_onu_bulgur_kazani.pdf'
 }
 
+const ordununDereleri = {
+  id: 'ordunun-dereleri',
+  title: 'Ordunun Dereleri',
+  region: 'Karadeniz',
+  difficulty: 'Orta',
+  time: '4/4',
+  tempo: 72,
+  notes: ['-','Cm','Dm','Em','Em','Em','Gm','Gm','Em','Fm','Em','Dm','|','Dm','Em','Fm','Fm','Em','Fm','Gm','Em','Em','Dm','Em','Dm','Dm','Cm','|','Cm','-','Cm','Dm','Em','Em','Em','Gm','Gm','Em','Fm','Em','Dm','|','Dm','Em','Fm','Fm','Em','Fm','Gm','Em','Em','Dm','Em','Dm','Dm','Cm','|:','Cm','-','Cm','Dm','Em','Fm','Fm','Em','Fm','Em','Em','Dm','Em','Dm','Dm','Cm','|','Cm','-','Cm','Dm','Dm','Dm','Cm','Em','Dm','Dm','Bb2m','Cm','Bb2m','Am','|','Am','Cm','Bb2m','Am','Bb2m','Am','Am',':|'],
+  beats: [1/2,1/4,1/4,1/2,1/2,1/4,1/4,1/4,1/4,1/2,1/4,1/4,0,1/2,1/4,1/4,1/4,1/4,1/4,1/4,1/2,1/4,1/4,1/4,1/4,1/4,1/4,0,1/4,1/4,1/4,1/4,1/2,1/2,1/4,1/4,1/4,1/4,1/2,1/4,1/4,0,1/2,1/4,1/4,1/4,1/4,1/4,1/4,1/2,1/4,1/4,1/4,1/4,1/4,1/4,0,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,0,1/4,1/4,1/4,1/4,1/2,1/4,1/4,1/4,1/4,1/4,1/4,1/2,1/4,1/4,0,1/4,1/4,1/4,1/4,1/4,3/4,2,0],
+  lyrics: [' ','OR','DU','NUN','DE','RE','-','LE','-','-','Rİ','-',' ','-','AK','SA','YU','-','KA','-','RI','A','-','-','K','SA','-',' ','-',' ','OR','DU','NUN','DE','RE','-','LE','-','-','Rİ','-',' ','-','AK','SA','YU','-','KA','-','RI','A','-','-','K','SA','-',' ','-',' ','VER','MEM','SE','-','Nİ','-','EL','-','LE','-','-','-','RE','-',' ','-',' ','OR','DU','ÜS','TÜ','-','ME','-','KA','-','LK','SA','-',' ','SÜ','-','R','ME','Lİ','MAM','MAN',' '],
+  notation: "https://www.notaarsivleri.com/NotaMuzik/ordu'nun_dereleri.pdf"
+}
 
-export let allSongs = [izmirinKavaklari, hekimoglu, divaneAsikGibi,birFirtinaTuttuBizi,agriDagindanUcdum,alliDurnam,atesAttimSamana,denizUstuKopurur,havadaBulutYok,igdirinAlAlmasi,kagizmanaIsmarladim,manastirinOrtasinda,neAglarsinBenimZulfuSiyahim,evlerininOnuBulgurKazani];
+const pencereAcildi = {
+  id: 'pencere-acildi',
+  title: 'Pencere Açıldı Bilal Oğlan',
+  region: 'Rumeli',
+  difficulty: 'Orta',
+  time: '9/8',
+  tempo: 120,
+  notes: ['Dm','Em','Em','Fm','Em','Dm','|','C#m','Bbm','C#m','Dm','C#m','Bbm','Am','|','Dm','Em','Fm','Em','Dm','C#m','|','Gm','Fm','Em','Dm','C#m','Bbm','Am',':|','-','F#m','Gl','Am','Am','|','Bbm','Am','Bbm','Dm','C#m','Bbm','Am','|','Em','Dm','Dm','C#m','C#m','Bbm','Bbm','Am','|','Bbm','Am','Bbm','C#m','Bbm','Am','Bbm','|','-','F#m','Gl','Am','Am','|','Bbm','Am','Bbm','Dm','C#m','Bbm','Am','|','Em','Dm','Dm','C#m','C#m','Bbm','Bbm','Am','|','Am','Am','-','-','-','|'],
+  beats: [1,1/2,1/2,1,1,1/2,0,3/4,1/4,1/2,1/2,1/2,1/2,3/2,0,1,1,1,1/2,1/2,1/2,0,1,1/2,1/2,1/2,1/2,1/2,1/2,0,1,1/2,1/2,1,3/2,0,3/4,1/4,1/2,1/2,1/2,1/2,3/2,0,1/2,1/2,1/2,1/2,1/2,1/2,1,1/2,0,3/4,1/4,1/2,1/2,1/2,1/2,3/2,0,1,1/2,1/2,1,3/2,0,3/4,1/4,1/2,1/2,1/2,1/2,3/2,0,1/2,1/2,1/2,1/2,1/2,1/2,1,1/2,0,1,1,1,1,1/2,0],
+  lyrics: ['PEN','CE','RE','A','ÇIL','-',' ','DI','-','Bİ','LAL','OĞ','-','LAN',' ','PİŞ','TOV','PAT','LA','-','-',' ','DI','-','-','-','-','-','-',' ',' ','VA','RIN','BA','KIN',' ','KAN','-','LI','DA','Bİ','-','LAL',' ','Yİ','NE','Kİ','Mİ','HAK','-','LA','-',' ','DI','-','-','-','-','-','-',' ',' ','VA','RIN','BA','KIN',' ','KAN','-','LI','DA','Bİ','-','LAL',' ','Yİ','NE','Kİ','Mİ','HAK','-','LA','-',' ','DI','-',' ',' ',' ',' '],
+  notation: 'https://www.notaarsivleri.com/NotaMuzik/pencere_acildi_bilal_oglan(1).pdf'
+}
 
-/*
-Em,F#m,Gm,Fm,Em,Gm,Fm,Em,C#m,Dm,C#m,|,C#m,Dm,Em,F#m,Gm,Fm,Em,Dm,Dm,Cm,Bm,Cm,Dm,Em,Cm,|,Dm,C#m,C#m,C#m,C#m,C#m,C#m,C#m,C#m,C#m,C#m,|:,C#m,C#m,C#m,-,C#m,Dm,Dm,Ah,Gm,Em,Dm,|,C#m,C#m,C#m,Dm,C#m,Bbm,Am,Am,C#m,Dm,Em,Dm,C#m,Dm,|,C#m,C#m,C#m,Dm,C#m,Bbm,Bbm,Am,Am,Bbm,C#m,Am,|,Bbm,Am,Am,Am,Am,Am,Am,Am,Am,Am,Am,:|
-1/4,1/4,1/2,1/2,1/4,1/4,1/4,1/4,1/4,1/4,1,0,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/2,1/4,1/4,1/4,1/4,0,1/4,3/4,1/4,1/4,1/2,1/4,1/4,1/2,1/2,1/4,1/4,0,1/2,1/4,1/4,1/2,1/4,1/4,1,1/4,1/4,1/4,1/4,0,1/2,1/4,1/4,1/4,1/4,1/4,1/4,1/2,1/4,1/4,1/4,1/4,1/4,1/2,0,1/2,1/2,1/4,1/4,1/4,1/2,1/4,3/4,1/4,1/4,1/4,1/4,0,1/4,3/4,1/4,1/4,1/2,1/4,1/4,1/2,1/2,1/4,1/4,0
-TU,-,-,T,TU,-,Bİ,-,-,-,Zİ, ,DE,-,-,R,YA,-,-,-,YA,-,-,KA,-,-,R, ,DI,-, , , , , , , , , , , , , , ,O,Bİ,ZİM,KA,-,-,-, ,VUŞ,MA,LA,RI,MI,-,-,ZA,YA,-,-,Rİ,-,M, ,MA,-,H,ŞE,-,-,RE,-,KA,-,-,L, ,DI,-, , , , , , , , , , ,
+const tirenGelirHosGelir = {
+  id: 'tiren-gelir-hoş-gelir',
+  title: 'Tiren Gelir Hoş Gelir',
+  region: 'Doğu Anadolu',
+  difficulty: 'Kolay',
+  time: '4/4',
+  tempo: 90,
+  notes: ['Dm','Dm','Am','Am','Dm','Dm','Am','-','|','Cm','Dm','Cm','Dm','Em','Dm','Cm','Dm','Bm','Cm','Am','-',':|:','Cm','Cm','Am','Am','Cm','Cm','Bm','-','|','Cm','Dm','Cm','Dm','Bm','Cm','Bm','Am','Am','-',':|'],
+  beats: [1/2,1/2,1/2,1/2,1/2,1/2,1/2,1/2,0,1/4,1/4,1/2,1/4,1/4,1/2,1/4,1/4,1/4,1/4,1/2,1/2,0,1/2,1/2,1/2,1/2,1/2,1/2,1/2,1/2,0,1/4,1/4,1/4,1/4,1/2,1/2,1/2,1/2,1/2,1/2,0],
+  lyrics: ['Tİ', 'REN', 'GE', 'LİR', 'HOŞ', 'GE', 'LİR', ' ', ' ', 'LEY', '-', '-', 'LEY', '-', '-', 'Lİ', 'Mİ', 'Lİ', 'Mİ', 'LEY', ' ', ' ', 'O', 'DA', 'LA', 'RI', 'BOŞ', 'GE', 'LİR', ' ', ' ', 'Mİ', 'Nİ', 'Mİ', 'Nİ', 'GÜ', 'ZEL', 'GEL', 'Bİ', 'ZE', ' ', ' '],
+  notation: 'https://www.notaarsivleri.com/NotaMuzik/tiren_gelir_hos_gelir.pdf'
+}
+
+const yarimSendenAyrilali = {
+  id: 'yarim-senden-ayrilali',
+  title: 'Yarim Senden Ayrılalı',
+  region: 'Doğu Anadolu',
+  difficulty: 'Zor',
+  time: '10/8',
+  tempo: 92,
+  notes: ['-', 'F#m', 'Gm', 'Ah', 'Ah', '-', '|', '-', 'Ch', 'Ch', 'Bb2h', 'Bb2h', 'Ah', 'Ah', '-', '|', '-', 'F#m', 'Gm', 'Gm', 'F#m', 'Gm', 'F#m', '|', 'Gm', 'F#m', 'Ah', 'Ah', 'Gm', 'Gm', 'F#m', 'F#m', 'Em', '|', '-', 'Gm', 'Gm', 'F#m', 'F#m', 'Em', 'Em', 'Dm', 'Em', '|', 'Dm', '-', 'Fm', 'Fm', 'Em', 'Em', 'Dm', 'Dm', 'Cm', '|', 'Cm', '-', 'Em', 'Em', 'Dm', 'Dm', 'Cm', 'Dm', 'Cm', 'Bb2m', '|', '-', 'Dm', 'Dm', 'Cm', 'Cm', 'Bb2m', 'Bb2m', 'Am', '|', '-', 'Cm', 'Cm', 'Bb2m', 'Bb2m', 'Am', 'Am', '|', 'Am', 'Am', 'Am', 'Am', 'Am', '-', '|', '-', 'Cm', 'Dm', 'Dm', 'Dm', 'Cm', 'Dm', '|', 'Cm', '-', 'Em', 'Em', 'Dm', 'Dm', 'Cm', 'Dm', 'Cm', 'Bb2m', '|', '-', 'Dm', 'Dm', 'Cm', 'Cm', 'Bb2m', 'Cm', 'Bb2m', 'Am', '|', '-', 'Cm', 'Cm', 'Bb2m', 'Bb2m', 'Am', 'Am', '|', 'Am', 'Am', 'Am', 'Am', 'Am', '-', '|'],
+  beats: [1,1/2,1,1,1,1/2,0,1,1/2,1/2,1/2,1/2,1/2,1,1/2,0,1,1/2,1,1/2,1/2,1,1/2,0,1/2,1/2,1/2,1/2,1/2,1/2,1/2,1,1/2,0,1,1/2,1/2,1/2,1/2,1/2,1,1/4,1/4,0,1/2,1/2,1/2,1/2,1/2,1/2,1/2,1,1/2,0,1/2,1/2,1/2,1/2,1/2,1/2,1/4,1/4,1,1/2,0,1,1/2,1/2,1/2,1/2,1/2,1,1/2,0,1,1/2,1/2,1/2,1/2,1/2,3/2,0,1,1/2,1,1,1,1/2,0,1,1/2,1,1,1,1/4,1/4,0,1/2,1/2,1/2,1/2,1/2,1/2,1/4,1/4,1,1/2,0,1,1/2,1/2,1/2,1/2,1/4,1/4,1,1/2,0,1,1/2,1/2,1/2,1/2,1/2,3/2,0,1,1/2,1,1,1,1/2,0],
+  lyrics: [' ','YA', 'RİM', 'SEN', 'DEN',' ',' ',' ', 'AY', 'RI', '-', 'LA', '-', 'LI', ' ', ' ', ' ', 'HAY', 'Lİ', 'ZA', '-', 'MAN', '-', ' ', '-', '-', 'OL', 'DU', '-', 'GEL', '-', 'GEL', '-', ' ', ' ', 'BAK', 'GÖ', '-', 'ZÜM', '-', 'DE', '-', '-', ' ', 'N', ' ', 'A', 'KAN', '-', 'YAŞ', '-', 'LAR', '-', ' ', '-', ' ', 'A', 'BU', '-', 'RE', '-','-', 'VAN', '-', ' ',' ', 'OL', 'DU', '-', 'GEL', '-', 'GEL','-', ' ', '', 'OL', 'DU', '-', 'GEL', '-', 'GEL', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'BAK', 'GÖ', 'ZÜM', 'DE', '-', '-', ' ', 'N', ' ', 'A', 'KAN', '-', 'YAŞ', '-', '-', 'LAR', '-', ' ', ' ', 'A', 'BU', '-', 'RE', '-', '-', 'VAN', '-', ' ',' ', 'OL', 'DU', '-', 'GEL', '-', 'GEL', ' ', ' ',' ',' ',' ',' ',' ',' '],
+  notation: 'https://www.notaarsivleri.com/NotaMuzik/yarim_senden_ayrilali.pdf'
+}
+
+const telgirafinTellerine = {
+  id: 'telgirafin-tellerine',
+  title: 'Telgrafın Tellerine',
+  region: 'Marmara',
+  difficulty: 'Zor',
+  time: '4/4',
+  tempo: 60,
+  notes: ['-','Cm','Dm','Dm','Dm','Cm','Cm','Bb2m','Am','Am','Cm','|','Bb2m','Bb2m','Am','Gl','Gl','Cm','Dm','Dm','Cm','Bb2m','Am','Bb2m','Cm','Dm','|','-','Cm','Dm','Dm','Dm','Bb2m','Bb2m','Dm','Cm','Bb2m','Am','Cm','|','Bb2m','Bb2m','Am','Gl','Gl','Bb2m','Am','Am','-',':|:','-','Cm','Dm','Dm','Dm','Bb2m','Dm','Cm','Bb2m','Am','Am','Cm','|','Bb2m','Bb2m','Bb2m','Am','Gl','Cm','Dm','Dm','Cm','Bb2m','Am','Bb2m','Cm','Dm','|','-','Cm','Dm','Dm','Dm','Bb2m','Bb2m','Dm','Cm','Bb2m','Am','Cm','|','Bb2m','Bb2m','Am','Gl','Gl','Bb2m','Am','Am','-',':|'],
+  beats: [1/2,1/4,1/4,1/4,3/4,1/2,1/4,1/4,1/4,1/4,1/2,0,1/2,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/2,0,1/2,1/4,1/4,1/2,1/4,1/4,1/4,1/4,1/4,1/4,1/2,1/2,0,1/2,1/4,1/4,1/4,1/4,1/4,1/4,3/2,1/2,0,1/2,1/4,1/4,1/4,3/4,1/4,1/4,1/4,1/4,1/4,1/4,1/2,0,1/4,1/4,1/4,1/4,1/2,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/4,1/2,0,1/2,1/4,1/4,1/2,1/4,1/4,1/4,1/4,1/4,1/4,1/2,1/2,0,1/4,1/2,1/4,1/4,1/4,1/4,1/4,3/2,1/2,0],
+  lyrics: [' ','TEL','GI','RA','FIN','TEL','LE','-','Rİ','NE','-',' ','KUŞ','LAR','-','MI','KO','-','-','NA','-','-','-','-','-','R',' ',' ','HER','KES','SEV','Dİ','-','Ğİ','NE','-','-','YAV','RUM',' ','BÖY','LE','-','Mİ','YA','-','-','NAR',' ' ,' ' ,' ' ,'GEL','YA','NI','MA','YA','NI','-','-','MA','DA','-',' ' ,'YA','NI','YA','NI','BA','ŞI','-','MA','-','-','-','-','-','-', ' ', ' ','ŞU','GENÇ','LİK','TE','-','NE','LER','-','-','GEL','Dİ',' ' ,'GA','RİP','-','BA','ŞI','-','-','MA',' ' , ' '],
+  notation: 'https://www.notaarsivleri.com/NotaMuzik/telgrafin_tellerine_kuslar_mi_konar.pdf'
+}
+
+const samanliktanGaldiramadimSamani = {
+  id: 'samanliktan-galdiramadim-samani',
+  title: 'Samanlıktan Galdıramadım Samanı (Zühdü)',
+  region: 'İç Anadolu',
+  difficulty: 'Zor',
+  time: '4/4',
+  tempo: 108,
+  notes: ['-','Em','Em','Em','Em','Em','Em','Dm','Em','Dm','Bb2m','|','Cm','Cm','Em','Dm','Cm','Dm','Bb2m','Cm','Bb2m','|','-','Am','Bb2m','Cm','Dm','Em','Cm','Dm','Bb2m','Cm','Bb2m','|','-','Em','Em','Em','Em','Em','Em','Em','Dm','Cm','|','Cm','Cm','Em','Dm','Cm','Dm','Bb2m','Cm','Bb2m','|','-','Am','Bb2m','Cm','Dm','Em','Cm','Dm','Bb2m','Cm','Bb2m','|','Em','Em','Em','Dm','Em','Dm','Cm','Dm','Bb2m','Cm','Bb2m','|','-','Am','Bb2m','Cm','Dm','Em','Cm','Dm','Bb2m','Cm','Bb2m','|','Em','Em','Em','Dm','Em','Dm','Cm','Dm','Bb2m','Cm','Bb2m','|','-','Am','Bb2m','Cm','Dm','Em','Cm','Dm','Bb2m','Cm','Bb2m','|','Em','Em','Dm','Em','Dm','Em','Cm','Dm','Bb2m','Cm','Bb2m','|'],
+  beats: [1/2,1/4,1/4,1/2,1/2,1/2,1/4,1/4,1/2,1/4,1/4,0,1/4,3/4,1/2,1/2,1/2,1/4,1/4,1/2,1/2,0,1/2,1/4,1/4,1/2,1/4,1/4,1/2,1/4,1/4,1/2,1/2,0,1/2,1/4,1/4,1/2,1/2,1/4,3/4,1/2,1/4,1/4,0,1/4,3/4,1/2,1/2,1/2,1/4,1/4,1/2,1/2,0,1/2,1/4,1/4,1/2,1/4,1/4,1/2,1/4,1/4,1/2,1/2,0,1/4,1/4,1/4,1/4,1/2,1/2,1/2,1/4,1/4,1/2,1/2,0,1/2,1/4,1/4,1/2,1/4,1/4,1/2,1/4,1/4,1/2,1/2,0,1/4,1/4,1/4,1/4,1/2,1/2,1/2,1/4,1/4,1/2,1/2,0,1/2,1/4,1/4,1/2,1/4,1/4,1/2,1/4,1/4,1/2,1/2,0,1/2,1/4,1/4,1/2,1/4,1/4,1/2,1/4,1/4,1/2,1/2,0],
+  lyrics: [' ','SA','MAN','LIK','TAN','GAL','DI','RA','MA','DIM','-',' ' ,'SA','MA','NI','DA','ZÜF','DÜ','-',' ' ,' ' ,' ' ,' ' ,'SA','NA','GAN','DIM','-','ZÜF','DÜ','-',' ' ,' ' ,' ' ,' ' ,'ŞİN','Dİ','GEL','Dİ','SA','LIN','MA','NIN','-',' ' ,'ZA','MA','NI','DA','ZÜF','DÜ','-',' ' ,' ' ,' ' ,' ' ,'SA','NA','GAN','DIM','-','ZÜF','DÜ','-',' ' ,' ' ,' ' ,'A','MA','NIN','-','YAN','DIM','ZÜF','DÜ','-', ' ', ' ', ' ', ' ','SA','NA','GAN','DIM','-','ZÜF','DÜ','-',' ' ,' ' ,' ' ,'HE','LE','HE','LE','YAN','DIM','ZÜF','DÜ','-',' ' , ' ', ' ',' ' ,'SA','NA','GAN','DIM','-','ZÜF','DÜ','-',' ' ,' ' ,' ' , ' ', ' ',' ' ,' ' ,' ' ,' ' ,' ' ,' ' ,' ' ,' ' ,' ' ,' ' ,' '],
+  notation: 'https://www.notaarsivleri.com/NotaMuzik/samanliktan_galdiramadim_samani_(zuhdu).pdf'
+}
 
 
-https://www.notaarsivleri.com/NotaMuzik/ordu'nun_dereleri.pdf
-https://www.notaarsivleri.com/NotaMuzik/pencere_acildi_bilal_oglan(1).pdf
-https://www.notaarsivleri.com/NotaMuzik/samanliktan_galdiramadim_samani_(zuhdu).pdf
-https://www.notaarsivleri.com/NotaMuzik/telgrafin_tellerine_kuslar_mi_konar.pdf
-https://www.notaarsivleri.com/NotaMuzik/tiren_gelir_hos_gelir.pdf
-https://www.notaarsivleri.com/NotaMuzik/yarim_senden_ayrilali.pdf
-
-*/
+export let allSongs = [agriDagindanUcdum,havadaBulutYok,manastirinOrtasinda,tirenGelirHosGelir,izmirinKavaklari, hekimoglu,birFirtinaTuttuBizi,alliDurnam,denizUstuKopurur,kagizmanaIsmarladim,neAglarsinBenimZulfuSiyahim,evlerininOnuBulgurKazani,ordununDereleri,pencereAcildi,atesAttimSamana,igdirinAlAlmasi,divaneAsikGibi,yarimSendenAyrilali,telgirafinTellerine,samanliktanGaldiramadimSamani];
