@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://baglamacal.com/</loc>
-    <lastmod>2024-05-12</lastmod>
+    <lastmod>2024-07-15</lastmod>
   </url>
   <url>
     <loc>https://baglamacal.com/akort.html</loc>
@@ -62,7 +62,7 @@
   </url>
     <url>
     <loc>https://baglamacal.com/eser-detay.html?songId=karahisar-kalesi</loc>
-    <lastmod>2024-05-12</lastmod>
+    <lastmod>2024-06-02</lastmod>
   </url>
   <url>
     <loc>https://baglamacal.com/eser-detay.html?songId=evlerinin-onu-bulgur-kazani</loc>
@@ -85,8 +85,12 @@
     <lastmod>2024-05-12</lastmod>
   </url>
   <url>
-    <loc>https://baglamacal.com/eser-detay.html?songId=igdirin-al-alması</loc>
-    <lastmod>2024-05-12</lastmod>
+    <loc>https://baglamacal.com/eser-detay.html?songId=igdirin-al-almasi</loc>
+    <lastmod>2024-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://baglamacal.com/eser-detay.html?songId=kirmizi-gulun-ali-var</loc>
+    <lastmod>2024-07-15</lastmod>
   </url>
   <url>
     <loc>https://baglamacal.com/eser-detay.html?songId=divane-asik-gibi</loc>
