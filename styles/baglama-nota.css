@@ -1,20 +1,29 @@
 /*selected nav-link is bolded*/
 .nav-link-baglama {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 main {
   display: flex;
-  justify-content: center;
-  margin: 256px;
+  flex-direction: column;
+  align-items: center;
+  margin: 256px 0;
 }
 
 .main-subtitle {
   font-weight: bold;
   color: var(--text75);
+  text-align: center;
 }
 
-.baglama-keyboard button {
+.baglama-keyboard, .long-baglama-keyboard {
+  position: relative;
+  z-index: 0;
+  justify-self: center;
+  margin-bottom: 32px;
+}
+
+.baglama-keyboard button, .long-baglama-keyboard button {
   background-color: var(--primarylight);
   color: var(--primarydark);
   font-size: 10px;
@@ -27,17 +36,12 @@ main {
   cursor: pointer;
 }
 
-.baglama-keyboard button:hover {
+.baglama-keyboard button:hover, .long-baglama-keyboard button:hover {
   opacity: 1;
 }
 
-.baglama-keyboard button:active {
+.baglama-keyboard button:active, .long-baglama-keyboard button:active {
   opacity: 1;
-}
-
-.baglama-keyboard {
-  position: relative;
-  z-index: 0;
 }
 
 .buttons-container {
@@ -51,13 +55,13 @@ main {
   grid-template-columns: 56px 56px 28px 28px 56px 28px 28px 56px 56px 28px 28px 56px 28px 28px 56px 56px 28px 28px 56px 56px;
 }
 
-.middle-strings-buttons {
+.long-bottom-strings-buttons, .long-middle-strings-buttons, .long-top-strings-buttons {
+  display: grid;
+  grid-template-columns: 55px 55px 28px 28px 55px 28px 28px 55px 55px 28px 28px 55px 28px 28px 55px 55px 28px 28px 55px 28px 28px 55px 55px 55px;
+  opacity: 0.8;
+  outline-style: none;
+}
+
+.middle-strings-buttons, .long-middle-strings-buttons {
   margin: 24px 0px;
 }
-
-
-/*responsive baglama keyboard trials
-.baglama-keyboard-container img {
-  width: 100%;
-}
-*/

@@ -1,3 +1,8 @@
+/*selected nav-link is bolded*/
+.nav-link-sarki {
+  font-weight: bolder;
+}
+
 main {
   margin-top: 256px;
   display: flex;
@@ -5,10 +10,28 @@ main {
   align-items: center;
 }
 
+.main-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  z-index: 100;
+}
+
+.main-part-sticky {
+  position: fixed;
+  top: 96px;
+}
+
+.main-part-sticky + .beats-notes-lyrics {
+  padding-top: 440px;
+}
+
 .main-title {
   font-size: 32px;
   margin-bottom: 32px;
   color: var(--text50);
+  padding-top: 24px;
 }
 
 .main-subtitle {
@@ -41,10 +64,11 @@ main {
 }
 
 .beats-notes-lyrics {
-  margin-top: 32px;
+  margin-top: 48px;
   margin-bottom: 32px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  max-width: 960px;
 }
 
 .each-beat {
@@ -74,7 +98,6 @@ main {
   height: 32px;
 }
 
-
 .baglama-keyboard {
   display: block;
 }
@@ -83,7 +106,7 @@ main {
   color: red;
 }
 
-.frets-container {
+.frets-container, .long-frets-container {
   opacity: 1;
 }
 
@@ -97,14 +120,35 @@ main {
   padding: 0px;
 }
 
-.baglama-keyboard {
+.long-frets-container button {
+  background-color: var(--primarylight);
+  color: var(--primarydark);
+  font-size: 9px;
+  border-style: none;
+  border-radius: 8px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.baglama-keyboard,.long-baglama-keyboard {
   position: relative;
 }
 
-.frets-container {
+.long-baglama-keyboard img{
+  width: auto;
+  height: 196px;
+}
+
+.frets-container{
   position: absolute;
   left: 20px;
   bottom: 64px;
+}
+
+.long-frets-container {
+  position: absolute;
+  left: 18px;
+  bottom: 58px;
 }
 
 .bottom-strings-frets, .middle-strings-frets, .top-strings-frets {
@@ -114,8 +158,19 @@ main {
   outline-style: none;
 }
 
+.long-bottom-strings-frets, .long-middle-strings-frets, .long-top-strings-frets {
+  display: grid;
+  grid-template-columns: 48px 48px 24px 24px 48px 24px 24px 48px 49px 24px 24px 49px 24px 24px 48px 48px 25px 25px 48px 24px 24px 48px 48px 48px;
+  opacity: 0.8;
+  outline-style: none;
+}
+
 .middle-strings-frets {
   margin: 32px 0px;
+}
+
+.long-middle-strings-frets {
+  margin: 26px 0px;
 }
 
 .selected-fret-visible {
@@ -129,8 +184,15 @@ main {
   opacity: 0.75;
 }
 
+.long-baglama-keyboard button:hover {
+  opacity: 0.75;
+}
+
 .notation-container {
   text-align: center;
 }
 
+.hide-section {
+  display: none;
+}
 

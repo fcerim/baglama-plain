@@ -28,13 +28,10 @@
     <!--favicon-->
 
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Kısa Sap Bağlama Saz Nasıl Akort Edilir?"
-    />
+    <meta name="description" content="Bağlama Saz Nasıl Akort Edilir?" />
     <meta
       name="keywords"
-      content="Bağlama, Saz, Akort, Nota, Düzen, Kısa Sap"
+      content="Bağlama, Saz, Akort, Nota, Düzen, Kısa Sap, Uzun Sap"
     />
     <meta name="author" content="Fatih Celil Erim" />
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
@@ -82,43 +79,43 @@
         </div>
         <button
           class="root-note-button js-button-0"
-          onclick="selectedRoot = 0; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+          onclick="selectedRoot = 0; tunerDisplay(selectedRoot); tunerDisplay2(selectedRoot); boldSelectedRoot(selectedRoot);"
         >
           La <br />(A)
         </button>
         <button
           class="root-note-button js-button-2"
-          onclick="selectedRoot = 2; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+          onclick="selectedRoot = 2; tunerDisplay(selectedRoot); tunerDisplay2(selectedRoot); boldSelectedRoot(selectedRoot);"
         >
           Si <br />(B)
         </button>
         <button
           class="root-note-button js-button-3"
-          onclick="selectedRoot = 3; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+          onclick="selectedRoot = 3; tunerDisplay(selectedRoot); tunerDisplay2(selectedRoot); boldSelectedRoot(selectedRoot);"
         >
           Do <br />(C)
         </button>
         <button
           class="root-note-button js-button-5"
-          onclick="selectedRoot = 5; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+          onclick="selectedRoot = 5; tunerDisplay(selectedRoot); tunerDisplay2(selectedRoot); boldSelectedRoot(selectedRoot);"
         >
           Re <br />(D)
         </button>
         <button
           class="root-note-button js-button-7"
-          onclick="selectedRoot = 7; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+          onclick="selectedRoot = 7; tunerDisplay(selectedRoot); tunerDisplay2(selectedRoot); boldSelectedRoot(selectedRoot);"
         >
           Mi <br />(E)
         </button>
         <button
           class="root-note-button js-button-8"
-          onclick="selectedRoot = 8; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+          onclick="selectedRoot = 8; tunerDisplay(selectedRoot); tunerDisplay2(selectedRoot); boldSelectedRoot(selectedRoot);"
         >
           Fa <br />(F)
         </button>
         <button
           class="root-note-button js-button-10"
-          onclick="selectedRoot = 10; tunerDisplay(selectedRoot); boldSelectedRoot(selectedRoot);"
+          onclick="selectedRoot = 10; tunerDisplay(selectedRoot); tunerDisplay2(selectedRoot); boldSelectedRoot(selectedRoot);"
         >
           Sol <br />(G)
         </button>
@@ -127,7 +124,7 @@
       <section class="tuner-guide">
         <div class="tuner-result-container">
           <div class="tuner-guide-title">Kısa Sap Bağlama Akort Düzeni</div>
-          <img src="images/baglama_sap.jpg" />
+          <img class="baglama-keyboard" src="images/baglama_sap.jpg" />
           <div class="tuner-result">
             <div class="tuner-result-note js-bottom-strings strings"></div>
             <div class="tuner-result-note js-middle-strings strings"></div>
@@ -135,7 +132,22 @@
           </div>
         </div>
       </section>
+      <section class="tuner-guide-2">
+        <div class="tuner-result-container-2">
+          <div class="tuner-guide-title-2">Uzun Sap Kara (Bozuk) Düzen</div>
+          <img
+            class="long-baglama-keyboard"
+            src="images/baglama_uzun_sap.jpg"
+          />
+          <div class="tuner-result-2">
+            <div class="tuner-result-note-2 js-bottom-strings-2 strings"></div>
+            <div class="tuner-result-note-2 js-middle-strings-2 strings"></div>
+            <div class="tuner-result-note-2 js-top-strings-2 strings"></div>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="scripts/akort.js"></script>
+    <script src="scripts/header.js"></script>
   </body>
 </html>

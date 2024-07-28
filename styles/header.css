@@ -7,7 +7,6 @@
   --text90: #0F0602;
 }
 
-
 header {
   position: fixed;
   top: 0;
@@ -19,24 +18,49 @@ header {
   background-color: var(--primarydark);
   height: 128px;
   display: flex;
+  transition: 0.2s;
+}
+
+.banner-shrinked {
+  height: 64px;
 }
 
 .logo {
   width: 88px;
   height: 88px;
   margin: 16px;
+  transition: 0.2s;
+}
+
+.logo-shrinked {
+  width: 48px;
+  height: 48px;
+  margin: 8px;
 }
 
 .title {
   color: var(--primarylight);
   font-size: 32px;
-  margin-top: 24px;
-  margin-bottom: 16px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  transition: 0.2s;
+}
+
+.title-shrinked {
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 4px;
+
 }
 
 .subtitle {
   color: var(--primarylight);
   font-size: 16px;
+  transition: 0.2s;
+}
+
+.subtitle-shrinked {
+  font-size: 8px;
 }
 
 nav {
@@ -45,6 +69,11 @@ nav {
   height: 64px;
   justify-content: center;
   align-items: center;
+  transition: 0.2s;
+}
+
+.nav-shrinked {
+  height: 32px;
 }
 
 nav a{

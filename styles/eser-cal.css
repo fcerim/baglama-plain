@@ -1,3 +1,8 @@
+/*selected nav-link is bolded*/
+.nav-link-sarki {
+  font-weight: bolder;
+}
+
 main {
   margin-top: 256px;
   display: flex;
@@ -17,7 +22,6 @@ main {
 .song-selection-menu button {
   width: 80vw;
   max-width: 1240px;
-  aspect-ratio: 16;
   border-radius: 0px;
   border-top-style: none;
   border-left-style: none;
