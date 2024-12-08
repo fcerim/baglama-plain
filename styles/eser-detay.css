@@ -190,9 +190,20 @@ main {
 
 .notation-container {
   text-align: center;
+  margin-bottom: 32px;
 }
 
 .hide-section {
   display: none;
 }
 
+.section-header {
+  font-weight: bold;
+  color: var(--text75);
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.lyrics-container {
+  margin-bottom: 32px;
+}
