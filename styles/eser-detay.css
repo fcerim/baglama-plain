@@ -205,5 +205,14 @@ main {
 }
 
 .lyrics-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-bottom: 32px;
+  width: 90vw;
+}
+
+.full-lyrics {
+  display: flex;
+  justify-content: center;
 }
