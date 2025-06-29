@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://baglamacal.com/</loc>
-    <lastmod>2024-12-08</lastmod>
+    <lastmod>2025-06-29</lastmod>
   </url>
   <url>
     <loc>https://baglamacal.com/akort</loc>
@@ -35,6 +35,10 @@
   <url>
     <loc>https://baglamacal.com/eser-detay.html?songId=canakkale-icinde-aynali-carsi</loc>
     <lastmod>2025-01-23</lastmod>
+  </url>
+    <url>
+    <loc>https://baglamacal.com/eser-detay.html?songId=uzun-ince-bir-yoldayim</loc>
+    <lastmod>2025-06-29</lastmod>
   </url>
   <url>
     <loc>https://baglamacal.com/eser-detay.html?songId=izmirin-kavaklari</loc>
@@ -79,6 +83,10 @@
   <url>
     <loc>https://baglamacal.com/eser-detay.html?songId=ordunun-dereleri</loc>
     <lastmod>2025-01-23</lastmod>
+  </url>
+    <url>
+    <loc>https://baglamacal.com/eser-detay.html?songId=urfanin-etrafi</loc>
+    <lastmod>2025-06-29</lastmod>
   </url>
   <url>
     <loc>https://baglamacal.com/eser-detay.html?songId=pencere-acildi-bilal-oglan</loc>
