@@ -1,1 +1,19 @@
-var _0x36f550=_0x3950;(function(_0x325467,_0x37afec){var _0x3aaf2b=_0x3950,_0x555158=_0x325467();while(!![]){try{var _0x52204f=parseInt(_0x3aaf2b(0x1e9))/0x1*(parseInt(_0x3aaf2b(0x1da))/0x2)+-parseInt(_0x3aaf2b(0x1e0))/0x3+parseInt(_0x3aaf2b(0x1e3))/0x4*(parseInt(_0x3aaf2b(0x1d6))/0x5)+-parseInt(_0x3aaf2b(0x1dd))/0x6+parseInt(_0x3aaf2b(0x1ec))/0x7*(-parseInt(_0x3aaf2b(0x1db))/0x8)+parseInt(_0x3aaf2b(0x1e4))/0x9*(-parseInt(_0x3aaf2b(0x1ef))/0xa)+-parseInt(_0x3aaf2b(0x1e2))/0xb*(-parseInt(_0x3aaf2b(0x1e5))/0xc);if(_0x52204f===_0x37afec)break;else _0x555158['push'](_0x555158['shift']());}catch(_0x4cc961){_0x555158['push'](_0x555158['shift']());}}}(_0x3724,0xb29c5),window[_0x36f550(0x1d5)]=function(){scrollFunction();});function _0x3950(_0x3a602c,_0x1eccec){var _0x372422=_0x3724();return _0x3950=function(_0x3950ed,_0x2f4ab7){_0x3950ed=_0x3950ed-0x1d2;var _0x232791=_0x372422[_0x3950ed];return _0x232791;},_0x3950(_0x3a602c,_0x1eccec);}function _0x3724(){var _0x4f8f8e=['onscroll','2152755bnQoOd','add','subtitle-shrinked','banner-shrinked','6TqhLEi','40280qWLowR','.subtitle','1915686EvThOv','remove','nav-shrinked','3455751vmbAWU','scrollTop','21769lwiNJR','8GPjxrQ','280161PULOFL','15108RuwLWd','logo-shrinked','querySelector','title-shrinked','125269MOhkJf','.banner','.title','1169opBgyh','nav','documentElement','220dEeHUA','.logo','classList','body'];_0x3724=function(){return _0x4f8f8e;};return _0x3724();}function scrollFunction(){var _0x6f369=_0x36f550;document[_0x6f369(0x1d4)]['scrollTop']>0x40||document[_0x6f369(0x1ee)][_0x6f369(0x1e1)]>0x40?(document['querySelector'](_0x6f369(0x1ea))[_0x6f369(0x1d3)]['add'](_0x6f369(0x1d9)),document[_0x6f369(0x1e7)](_0x6f369(0x1d2))['classList'][_0x6f369(0x1d7)](_0x6f369(0x1e6)),document[_0x6f369(0x1e7)]('.title')['classList'][_0x6f369(0x1d7)](_0x6f369(0x1e8)),document['querySelector']('.subtitle')[_0x6f369(0x1d3)][_0x6f369(0x1d7)](_0x6f369(0x1d8)),document[_0x6f369(0x1e7)](_0x6f369(0x1ed))[_0x6f369(0x1d3)]['add'](_0x6f369(0x1df))):(document[_0x6f369(0x1e7)](_0x6f369(0x1ea))[_0x6f369(0x1d3)][_0x6f369(0x1de)]('banner-shrinked'),document[_0x6f369(0x1e7)]('.logo')[_0x6f369(0x1d3)][_0x6f369(0x1de)](_0x6f369(0x1e6)),document[_0x6f369(0x1e7)](_0x6f369(0x1eb))[_0x6f369(0x1d3)]['remove']('title-shrinked'),document[_0x6f369(0x1e7)](_0x6f369(0x1dc))[_0x6f369(0x1d3)][_0x6f369(0x1de)](_0x6f369(0x1d8)),document['querySelector'](_0x6f369(0x1ed))['classList'][_0x6f369(0x1de)](_0x6f369(0x1df)));}
+//Shrinking header on scroll down 64 px from top
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 64 || document.documentElement.scrollTop > 64) {
+    document.querySelector('.banner').classList.add('banner-shrinked');
+    document.querySelector('.logo').classList.add('logo-shrinked');
+    document.querySelector('.title').classList.add('title-shrinked');
+    document.querySelector('.subtitle').classList.add('subtitle-shrinked');
+    document.querySelector('nav').classList.add('nav-shrinked');
+  } 
+  else {
+    document.querySelector('.banner').classList.remove('banner-shrinked');
+    document.querySelector('.logo').classList.remove('logo-shrinked');
+    document.querySelector('.title').classList.remove('title-shrinked');
+    document.querySelector('.subtitle').classList.remove('subtitle-shrinked');
+    document.querySelector('nav').classList.remove('nav-shrinked');
+  }
+}

@@ -1,1 +1,54 @@
-const _0x14d1d1=_0x39fd;(function(_0x1bc14b,_0x4d0711){const _0x5267e6=_0x39fd,_0x121b0c=_0x1bc14b();while(!![]){try{const _0x2febb5=-parseInt(_0x5267e6(0x6d))/0x1+-parseInt(_0x5267e6(0x80))/0x2*(parseInt(_0x5267e6(0x6a))/0x3)+-parseInt(_0x5267e6(0x6e))/0x4*(parseInt(_0x5267e6(0x73))/0x5)+-parseInt(_0x5267e6(0x6f))/0x6*(parseInt(_0x5267e6(0x8e))/0x7)+parseInt(_0x5267e6(0x6c))/0x8+-parseInt(_0x5267e6(0x8c))/0x9*(-parseInt(_0x5267e6(0x7b))/0xa)+parseInt(_0x5267e6(0x7f))/0xb;if(_0x2febb5===_0x4d0711)break;else _0x121b0c['push'](_0x121b0c['shift']());}catch(_0x57c63d){_0x121b0c['push'](_0x121b0c['shift']());}}}(_0x1545,0x35dd7));const notes=[_0x14d1d1(0x7c),'La\x20Diyez\x20(A#)',_0x14d1d1(0x78),'Do\x20(C)',_0x14d1d1(0x69),_0x14d1d1(0x8d),_0x14d1d1(0x88),_0x14d1d1(0x79),_0x14d1d1(0x75),_0x14d1d1(0x74),_0x14d1d1(0x71),_0x14d1d1(0x6b)];function _0x1545(){const _0x449d36=['Üst\x20-\x20','.js-middle-strings-2','Orta\x20-\x20','Re\x20Diyez\x20(D#)','Alt\x20-\x20','selected-root-bold','.js-button-10','1063332wcIAfC','Re\x20(D)','49TQFNVG','add','Do\x20Diyez\x20(C#)','61878CXeDIO','Sol\x20Diyez\x20(G#)','661616CCIxHc','436581tmZBza','100qxEKhW','101310KyYsPi','.js-top-strings-2','Sol\x20(G)','.js-button-','15640UtZKXH','Fa\x20Diyez\x20(F#)','Fa\x20(F)','querySelector','.js-button-8','Si\x20(B)','Mi\x20(E)','innerHTML','30KRtkRi','La\x20(A)','.js-button-7','.js-bottom-strings','5715501eDDeFj','10IkIWtn','classList','.js-top-strings','remove','.js-button-0'];_0x1545=function(){return _0x449d36;};return _0x1545();}let selectedRoot=0x0;boldSelectedRoot(selectedRoot);function _0x39fd(_0x5e209d,_0x25d530){const _0x154517=_0x1545();return _0x39fd=function(_0x39fd10,_0x1b18da){_0x39fd10=_0x39fd10-0x69;let _0x1eceba=_0x154517[_0x39fd10];return _0x1eceba;},_0x39fd(_0x5e209d,_0x25d530);}function tunerDisplay(_0x5b4f7c){const _0x3a131b=_0x14d1d1;let _0x4a7351=(_0x5b4f7c+0xa)%0xc,_0x418882=(_0x5b4f7c+0x5)%0xc;document[_0x3a131b(0x76)](_0x3a131b(0x7e))['innerHTML']='Alt\x20-\x20'+notes[_0x418882],document['querySelector']('.js-middle-strings')[_0x3a131b(0x7a)]=_0x3a131b(0x87)+notes[_0x4a7351],document[_0x3a131b(0x76)](_0x3a131b(0x82))['innerHTML']=_0x3a131b(0x85)+notes[_0x5b4f7c];}tunerDisplay(selectedRoot);function tunerDisplay2(_0x46fa13){const _0x2b4610=_0x14d1d1;let _0xd86039=(_0x46fa13+0x5)%0xc,_0x52061b=(_0x46fa13+0xa)%0xc;document[_0x2b4610(0x76)]('.js-bottom-strings-2')[_0x2b4610(0x7a)]=_0x2b4610(0x89)+notes[_0x46fa13],document[_0x2b4610(0x76)](_0x2b4610(0x86))['innerHTML']=_0x2b4610(0x87)+notes[_0xd86039],document['querySelector'](_0x2b4610(0x70))['innerHTML']='Üst\x20-\x20'+notes[_0x52061b];}tunerDisplay2(selectedRoot);function boldSelectedRoot(_0x38c064){const _0xa391f9=_0x14d1d1;document[_0xa391f9(0x76)](_0xa391f9(0x72)+_0x38c064)[_0xa391f9(0x81)][_0xa391f9(0x8f)](_0xa391f9(0x8a)),_0x38c064!==0x0&&document[_0xa391f9(0x76)](_0xa391f9(0x84))[_0xa391f9(0x81)][_0xa391f9(0x83)](_0xa391f9(0x8a)),_0x38c064!==0x2&&document[_0xa391f9(0x76)]('.js-button-2')[_0xa391f9(0x81)][_0xa391f9(0x83)](_0xa391f9(0x8a)),_0x38c064!==0x3&&document[_0xa391f9(0x76)]('.js-button-3')[_0xa391f9(0x81)][_0xa391f9(0x83)]('selected-root-bold'),_0x38c064!==0x5&&document[_0xa391f9(0x76)]('.js-button-5')[_0xa391f9(0x81)][_0xa391f9(0x83)](_0xa391f9(0x8a)),_0x38c064!==0x7&&document[_0xa391f9(0x76)](_0xa391f9(0x7d))[_0xa391f9(0x81)][_0xa391f9(0x83)](_0xa391f9(0x8a)),_0x38c064!==0x8&&document[_0xa391f9(0x76)](_0xa391f9(0x77))[_0xa391f9(0x81)][_0xa391f9(0x83)](_0xa391f9(0x8a)),_0x38c064!==0xa&&document[_0xa391f9(0x76)](_0xa391f9(0x8b))[_0xa391f9(0x81)][_0xa391f9(0x83)](_0xa391f9(0x8a));}
+const notes = [
+  "La (A)",
+  "La Diyez (A#)",
+  "Si (B)",
+  "Do (C)",
+  "Do Diyez (C#)",
+  "Re (D)",
+  "Re Diyez (D#)",
+  "Mi (E)",
+  "Fa (F)",
+  "Fa Diyez (F#)",
+  "Sol (G)",
+  "Sol Diyez (G#)",
+];
+
+//selected root is A at the beginning
+let selectedRoot = 0;
+
+//call the function to make A button bold
+boldSelectedRoot(selectedRoot);
+
+//make the calculation to show tuning notes, it is called onclick of the root selector button
+function tunerDisplay (selectedRoot) {
+let middleStrings = (selectedRoot + 10) % 12;
+let bottomStrings = (selectedRoot + 5) % 12;
+document.querySelector('.js-bottom-strings').innerHTML = `Alt - ${notes [bottomStrings]}`;
+document.querySelector('.js-middle-strings').innerHTML = `Orta - ${notes [middleStrings]}`;
+document.querySelector('.js-top-strings').innerHTML = `Üst - ${notes [selectedRoot]}`;
+}
+tunerDisplay(selectedRoot);
+
+//tuning calcucation for kara düzen
+function tunerDisplay2 (selectedRoot) {
+  let middleStrings = (selectedRoot + 5) % 12;
+  let topStrings = (selectedRoot + 10) % 12;
+  document.querySelector('.js-bottom-strings-2').innerHTML = `Alt - ${notes [selectedRoot]}`;
+  document.querySelector('.js-middle-strings-2').innerHTML = `Orta - ${notes [middleStrings]}`;
+  document.querySelector('.js-top-strings-2').innerHTML = `Üst - ${notes [topStrings]}`;
+}
+tunerDisplay2(selectedRoot);
+
+//make selected root button bold and remove bold from previously selected buttons
+function boldSelectedRoot (selectedRoot) {
+  document.querySelector(`.js-button-${selectedRoot}`).classList.add('selected-root-bold');
+  if (selectedRoot !== 0) {document.querySelector('.js-button-0').classList.remove('selected-root-bold');}
+  if (selectedRoot !== 2) {document.querySelector('.js-button-2').classList.remove('selected-root-bold');}
+  if (selectedRoot !== 3) {document.querySelector('.js-button-3').classList.remove('selected-root-bold');}
+  if (selectedRoot !== 5) {document.querySelector('.js-button-5').classList.remove('selected-root-bold');}
+  if (selectedRoot !== 7) {document.querySelector('.js-button-7').classList.remove('selected-root-bold');}
+  if (selectedRoot !== 8) {document.querySelector('.js-button-8').classList.remove('selected-root-bold');}
+  if (selectedRoot !== 10) {document.querySelector('.js-button-10').classList.remove('selected-root-bold');}
+}
+
+

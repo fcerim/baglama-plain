@@ -1,1 +1,18 @@
-const _0x53cf46=_0x1e08;(function(_0x4ac470,_0x161faf){const _0x369c9e=_0x1e08,_0x15a189=_0x4ac470();while(!![]){try{const _0xc22d3f=parseInt(_0x369c9e(0x13b))/0x1*(-parseInt(_0x369c9e(0x125))/0x2)+-parseInt(_0x369c9e(0x13a))/0x3*(parseInt(_0x369c9e(0x136))/0x4)+parseInt(_0x369c9e(0x133))/0x5+-parseInt(_0x369c9e(0x12a))/0x6*(-parseInt(_0x369c9e(0x127))/0x7)+parseInt(_0x369c9e(0x131))/0x8*(parseInt(_0x369c9e(0x132))/0x9)+-parseInt(_0x369c9e(0x138))/0xa*(-parseInt(_0x369c9e(0x128))/0xb)+-parseInt(_0x369c9e(0x129))/0xc;if(_0xc22d3f===_0x161faf)break;else _0x15a189['push'](_0x15a189['shift']());}catch(_0x1cacea){_0x15a189['push'](_0x15a189['shift']());}}}(_0x3488,0x22f32));function _0x1e08(_0x45aebd,_0xef8363){const _0x34887b=_0x3488();return _0x1e08=function(_0x1e0899,_0x5b008f){_0x1e0899=_0x1e0899-0x124;let _0xb608b8=_0x34887b[_0x1e0899];return _0xb608b8;},_0x1e08(_0x45aebd,_0xef8363);}import{allSongs}from'../songs/songs.js';let songSelectorTable=document[_0x53cf46(0x124)](_0x53cf46(0x126))[_0x53cf46(0x13f)];function writeSongButtonsTable(_0x5089ab){const _0x4fd950=_0x53cf46;let _0x3a42e6=_0x4fd950(0x137)+_0x5089ab['id']+_0x4fd950(0x139)+_0x5089ab[_0x4fd950(0x13c)]+_0x4fd950(0x12d)+_0x5089ab[_0x4fd950(0x134)]+_0x4fd950(0x12b)+_0x5089ab[_0x4fd950(0x12f)]+_0x4fd950(0x130);songSelectorTable=songSelectorTable+_0x3a42e6,document[_0x4fd950(0x124)](_0x4fd950(0x126))[_0x4fd950(0x13f)]=songSelectorTable;}allSongs[_0x53cf46(0x12c)](writeSongButtonsTable);function _0x3488(){const _0x2816a4=['\x22><td\x20class=\x22song-table-title\x22>','75VLUhXC','207PUjgUw','title','addEventListener','location','innerHTML','querySelector','72sSyKHM','.song-list-table','7pUsLRa','81411SCfKhA','3188628GEaxOe','1512828gYqPhH','</td><td\x20class=\x22song-table-difficulty\x22>','forEach','</td><td\x20class=\x22song-table-region\x22>','click','difficulty','</td></tr>','32AUHNfH','48204rMOhUk','1034010FqRWsq','region','eser-detay.html?songId=','23272IXiLZf','<tr\x20id=\x22','110Yrlpqo'];_0x3488=function(){return _0x2816a4;};return _0x3488();}function selectSong(_0x153a52){const _0x49904e=_0x53cf46;document['querySelector']('#'+_0x153a52['id'])[_0x49904e(0x13d)](_0x49904e(0x12e),function(){const _0x18c34c=_0x49904e;window[_0x18c34c(0x13e)]['href']=_0x18c34c(0x135)+_0x153a52['id'];});}allSongs[_0x53cf46(0x12c)](selectSong);
+import { allSongs} from "../songs/songs.js";
+
+//Generate HTML for song buttons in table
+let songSelectorTable = document.querySelector('.song-list-table').innerHTML;
+
+function writeSongButtonsTable (item) {
+  let songButtonTable = `<tr id="${item.id}"><td class="song-table-title">${item.title}</td><td class="song-table-region">${item.region}</td><td class="song-table-difficulty">${item.difficulty}</td></tr>`;
+  songSelectorTable = songSelectorTable + songButtonTable;
+  document.querySelector('.song-list-table').innerHTML = songSelectorTable;
+} 
+allSongs.forEach(writeSongButtonsTable); 
+
+
+//Add Event Listener for song buttons
+function selectSong (item) {
+  document.querySelector(`#${item.id}`).addEventListener('click', function(){window.location.href = `eser-detay/${item.id}.html`;})
+}
+allSongs.forEach(selectSong);

@@ -1,1 +1,282 @@
-const _0x3877e3=_0x39fa;(function(_0x26aa0d,_0x3fed75){const _0x2e5876=_0x39fa,_0x2addd9=_0x26aa0d();while(!![]){try{const _0x25ac15=-parseInt(_0x2e5876(0x13b))/0x1*(-parseInt(_0x2e5876(0xde))/0x2)+parseInt(_0x2e5876(0x12c))/0x3+-parseInt(_0x2e5876(0x16f))/0x4+-parseInt(_0x2e5876(0x133))/0x5+parseInt(_0x2e5876(0x112))/0x6*(-parseInt(_0x2e5876(0x10b))/0x7)+parseInt(_0x2e5876(0x160))/0x8*(-parseInt(_0x2e5876(0xff))/0x9)+parseInt(_0x2e5876(0x143))/0xa;if(_0x25ac15===_0x3fed75)break;else _0x2addd9['push'](_0x2addd9['shift']());}catch(_0x1afc7b){_0x2addd9['push'](_0x2addd9['shift']());}}}(_0x568c,0x9f6b7));import{allSongs}from'../songs/songs.js';const urlKey=window[_0x3877e3(0xf7)][_0x3877e3(0xdd)],urlParams=new URLSearchParams(urlKey),urlParamId=urlParams[_0x3877e3(0x13d)](_0x3877e3(0x158));let selectedSong=allSongs['find'](_0x42cc82=>_0x42cc82['id']===urlParamId),metaDescription=document[_0x3877e3(0x145)](_0x3877e3(0x136)),description='Bağlama\x20ile\x20'+selectedSong[_0x3877e3(0xf9)]+'\x20türküsü\x20nasıl\x20çalınır?\x20'+selectedSong[_0x3877e3(0x109)]+_0x3877e3(0x139)+selectedSong[_0x3877e3(0xf9)]+_0x3877e3(0x167)+selectedSong['title']+_0x3877e3(0x150);metaDescription['content']=description,document[_0x3877e3(0xf9)]=selectedSong[_0x3877e3(0xf9)]+'\x20|\x20Bağlama\x20Çal';const notes=['Al',_0x3877e3(0x149),_0x3877e3(0x140),'Bl','Cl',_0x3877e3(0x113),'C#l','Dl',_0x3877e3(0xdb),'Eb2l','El','Fl',_0x3877e3(0xea),_0x3877e3(0x15d),'Gl','Abl',_0x3877e3(0x10c),'Am','Bbm','Bb2m','Bm','Cm',_0x3877e3(0xef),_0x3877e3(0xf8),'Dm',_0x3877e3(0x16b),'Eb2m','Em','Fm',_0x3877e3(0xf6),_0x3877e3(0x148),'Gm',_0x3877e3(0x138),_0x3877e3(0x153),'Ah','Bbh',_0x3877e3(0x14a),'Bh','Ch',_0x3877e3(0x151),_0x3877e3(0x110),'Dh',_0x3877e3(0x141),'Eb2h','Eh','Fh',_0x3877e3(0x10e),_0x3877e3(0x135),'Gh','Abh',_0x3877e3(0x161),'-','|',':|','|:',_0x3877e3(0x10a)],noteNames=['La','Si&flat;',_0x3877e3(0xd0),'Si','Do',_0x3877e3(0x11e),_0x3877e3(0xd8),'Re','Mi&flat;',_0x3877e3(0xe2),'Mi','Fa',_0x3877e3(0x127),'Fa&sharp;',_0x3877e3(0x14e),'La&flat;',_0x3877e3(0xe6),'La',_0x3877e3(0xce),'Si&flat;<sup>2</sup>','Si','Do',_0x3877e3(0x11e),_0x3877e3(0xd8),'Re',_0x3877e3(0xeb),_0x3877e3(0xe2),'Mi','Fa',_0x3877e3(0x127),_0x3877e3(0x11d),_0x3877e3(0x14e),'La&flat;',_0x3877e3(0xe6),'La',_0x3877e3(0xce),_0x3877e3(0xd0),'Si','Do',_0x3877e3(0x11e),_0x3877e3(0xd8),'Re',_0x3877e3(0xeb),_0x3877e3(0xe2),'Mi','Fa','Fa&sharp;<sup>3</sup>',_0x3877e3(0x11d),_0x3877e3(0x14e),_0x3877e3(0x16d),'La&flat;<sup>2</sup>','-','|',':|','|:',':|:'];let audioAl=new Audio('http://www.freesound.org/data/previews/39/39172_35187-lq.mp3'),audioBbl=new Audio(_0x3877e3(0xed)),audioBb2l=new Audio(_0x3877e3(0xed)),audioBl=new Audio(_0x3877e3(0x106)),audioCl=new Audio(_0x3877e3(0xf2)),audioCs3l=new Audio(_0x3877e3(0xfe)),audioCsl=new Audio(_0x3877e3(0xfe)),audioDl=new Audio(_0x3877e3(0x108)),audioEbl=new Audio(_0x3877e3(0x101)),audioEb2l=new Audio(_0x3877e3(0x101)),audioEl=new Audio(_0x3877e3(0x132)),audioFl=new Audio('http://www.freesound.org/data/previews/39/39180_35187-lq.mp3'),audioFs3l=new Audio(_0x3877e3(0xdc)),audioFsl=new Audio(_0x3877e3(0xdc)),audioGl=new Audio(_0x3877e3(0x126)),audioAbl=new Audio(_0x3877e3(0x11f)),audioAb2l=new Audio(_0x3877e3(0xd2)),audioA=new Audio(_0x3877e3(0x10d)),audioBb=new Audio(_0x3877e3(0xf5)),audioBb2=new Audio(_0x3877e3(0x13e)),audioB=new Audio(_0x3877e3(0x14d)),audioC=new Audio(_0x3877e3(0xd9)),audioCs3=new Audio(_0x3877e3(0x12f)),audioCs=new Audio(_0x3877e3(0xe1)),audioD=new Audio(_0x3877e3(0x103)),audioEb=new Audio('https://cdn.freesound.org/previews/717/717196_15530819-lq.mp3'),audioEb2=new Audio(_0x3877e3(0x147)),audioE=new Audio(_0x3877e3(0x11c)),audioF=new Audio(_0x3877e3(0xe9)),audioFs3=new Audio(_0x3877e3(0x125)),audioFs=new Audio(_0x3877e3(0x169)),audioG=new Audio(_0x3877e3(0x13f)),audioAb=new Audio(_0x3877e3(0x116)),audioAb2=new Audio(_0x3877e3(0x157)),audioAh=new Audio(_0x3877e3(0x107)),audioBbh=new Audio('https://cdn.freesound.org/previews/717/717185_15530819-lq.mp3'),audioBb2h=new Audio(_0x3877e3(0x130)),audioBh=new Audio(_0x3877e3(0xe8)),audioCh=new Audio('https://cdn.freesound.org/previews/717/717188_15530819-lq.mp3'),audioCs3h=new Audio('https://cdn.freesound.org/previews/717/717191_15530819-lq.mp3'),audioCsh=new Audio(_0x3877e3(0x121)),audioDh=new Audio(_0x3877e3(0x12d)),audioEbh=new Audio(_0x3877e3(0x124)),audioEb2h=new Audio(_0x3877e3(0x124)),audioEh=new Audio(_0x3877e3(0x154)),audioFh=new Audio('http://www.freesound.org/data/previews/39/39205_35187-lq.mp3'),audioFs3h=new Audio('http://www.freesound.org/data/previews/39/39206_35187-lq.mp3'),audioFsh=new Audio('http://www.freesound.org/data/previews/39/39206_35187-lq.mp3'),audioGh=new Audio('http://www.freesound.org/data/previews/39/39207_35187-lq.mp3'),audioAbh=new Audio(_0x3877e3(0x159)),audioAb2h=new Audio(_0x3877e3(0x159)),audioSilence=new Audio(_0x3877e3(0xfa));const audioFiles=[audioAl,audioBbl,audioBb2l,audioBl,audioCl,audioCs3l,audioCsl,audioDl,audioEbl,audioEb2l,audioEl,audioFl,audioFs3l,audioFsl,audioGl,audioAbl,audioAb2l,audioA,audioBb,audioBb2,audioB,audioC,audioCs3,audioCs,audioD,audioEb,audioEb2,audioE,audioF,audioFs3,audioFs,audioG,audioAb,audioAb2,audioAh,audioBbh,audioBb2h,audioBh,audioCh,audioCs3h,audioCsh,audioDh,audioEbh,audioEb2h,audioEh,audioFh,audioFs3h,audioFsh,audioGh,audioAbh,audioAb2h,audioSilence];let intervalID=0x0,selectedBeat=0x0,indexOfNoteInNotes=0x0,repeatBegin=0x0,applyRepeat=!![];function _0x568c(){const _0x5a656c=['https://cdn.freesound.org/previews/717/717192_15530819-lq.mp3','beats','.js-button-pause','https://cdn.freesound.org/previews/717/717198_15530819-lq.mp3','https://cdn.freesound.org/previews/717/717202_15530819-lq.mp3','https://cdn.freesound.org/previews/717/717204_15530819-lq.mp3','Fa&sharp;<sup>3</sup>','&#8857','(Kaynak:\x20<a\x20href=\x22','.subtitle','&#9554;.','3279534LBZqfV','https://cdn.freesound.org/previews/717/717194_15530819-lq.mp3','&#9554;','https://cdn.freesound.org/previews/717/717190_15530819-lq.mp3','https://cdn.freesound.org/previews/717/717184_15530819-lq.mp3','nav-shrinked','http://www.freesound.org/data/previews/39/39179_35187-lq.mp3','2153520hUkOYA','currentTime','F#h','meta[name=\x22description\x22]','&#9485;.','Abm','\x20nasıl\x20çalınır?\x20','.main-part','2DlFwZL','&#9475;.','get','https://cdn.freesound.org/previews/717/717183_15530819-lq.mp3','https://cdn.freesound.org/previews/717/717203_15530819-lq.mp3','Bb2l','Ebh','</div></div>','9736990NKyGVW','&#9475;','querySelector','\x22\x20type=\x22text/html\x22\x20height=\x22760px\x22\x20width=\x22500px\x22/>','https://cdn.freesound.org/previews/717/717197_15530819-lq.mp3','F#m','Bbl','Bb2h','long-neck','.frets-container\x20.fret-','https://cdn.freesound.org/previews/717/717181_15530819-lq.mp3','Sol','tempo','\x20türküsü\x20sözleri','C#3h','click','Ab2m','https://cdn.freesound.org/previews/717/717199_15530819-lq.mp3','offsetTop','\x22\x20target=\x22_blank\x22\x20rel=\x22noopener\x20noreferrer\x22>','https://cdn.freesound.org/previews/717/717177_15530819-lq.mp3','songId','http://www.freesound.org/data/previews/39/39208_35187-lq.mp3','.notation','remove','documentElement','F#l','&#9485;','.long-baglama-keyboard','2331496ZXzEyK','Ab2h','.banner','.js-note-','oninput','Hız:\x20','indexOf','\x20notaları,\x20','notation','https://cdn.freesound.org/previews/717/717201_15530819-lq.mp3','banner-shrinked','Ebm','.long-frets-container\x20button','La&flat;','nav','4499748CYwxHk','subtitle-shrinked','Si&flat;','querySelectorAll','Si&flat;<sup>2</sup>','<embed\x20src=\x22','https://cdn.freesound.org/previews/717/717178_15530819-lq.mp3','classList','scrollTop','.main-title','short-neck','.long-frets-container\x20.fret-','Do&sharp;','https://cdn.freesound.org/previews/717/717187_15530819-lq.mp3','fullLyrics','Ebl','http://www.freesound.org/data/previews/39/39181_35187-lq.mp3','search','994372nMQmaZ','addEventListener','&#9557;','https://cdn.freesound.org/previews/717/717189_15530819-lq.mp3','Mi&flat;<sup>2</sup>','main-part-sticky','title-shrinked','lyrics','La&flat;<sup>2</sup>','pause','https://cdn.freesound.org/previews/717/717186_15530819-lq.mp3','https://cdn.freesound.org/previews/717/717200_15530819-lq.mp3','F#3l','Mi&flat;','add','http://www.freesound.org/data/previews/39/39173_35187-lq.mp3','.beats-notes-lyrics','C#3m','</div><div\x20class=\x22js-note-','hide-section','http://www.freesound.org/data/previews/39/39175_35187-lq.mp3','.logo','innerHTML','https://cdn.freesound.org/previews/717/717182_15530819-lq.mp3','F#3m','location','C#m','title','https://cdn.freesound.org/previews/472/472955_6142149-lq.mp3','.notation-link','logo-shrinked','value','http://www.freesound.org/data/previews/39/39176_35187-lq.mp3','18GnIQXZ','.frets-container\x20button','http://www.freesound.org/data/previews/39/39178_35187-lq.mp3','tempo-value','https://cdn.freesound.org/previews/719/719281_15530819-lq.mp3','&#183','getElementById','http://www.freesound.org/data/previews/39/39174_35187-lq.mp3','https://cdn.freesound.org/previews/717/717180_15530819-lq.mp3','http://www.freesound.org/data/previews/39/39177_35187-lq.mp3','secondTitle',':|:','1888257CqrETe','Ab2l','https://cdn.freesound.org/previews/717/717175_15530819-lq.mp3','F#3h','.js-note','C#h','selected-note-highlight','6jakcgB','C#3l','notes','.title','https://cdn.freesound.org/previews/717/717176_15530819-lq.mp3','\x20js-note\x22>\x20','forEach','.baglama-keyboard','selected-fret-visible','onscroll','https://cdn.freesound.org/previews/717/717195_15530819-lq.mp3','Fa&sharp;','Do&sharp;<sup>3</sup>','https://cdn.freesound.org/previews/717/717179_15530819-lq.mp3','<div\x20class=\x22each-beat\x22><div\x20class=\x22beat-values\x22>'];_0x568c=function(){return _0x5a656c;};return _0x568c();}function playSong(){const _0x56881d=_0x3877e3;clearInterval(intervalID),audioFiles[indexOfNoteInNotes][_0x56881d(0xe7)](),audioFiles[indexOfNoteInNotes][_0x56881d(0x134)]=0x0,document[_0x56881d(0xcf)]('.js-note')['forEach'](function(_0x595ed5){const _0x5e44a2=_0x56881d;_0x595ed5[_0x5e44a2(0xd3)][_0x5e44a2(0x15b)](_0x5e44a2(0x111));}),document[_0x56881d(0xcf)]('.frets-container\x20button')[_0x56881d(0x118)](function(_0x4c1308){const _0x259e74=_0x56881d;_0x4c1308[_0x259e74(0xd3)][_0x259e74(0x15b)]('selected-fret-visible');}),document[_0x56881d(0xcf)]('.long-frets-container\x20button')['forEach'](function(_0x25ade4){const _0x551077=_0x56881d;_0x25ade4[_0x551077(0xd3)]['remove'](_0x551077(0x11a));});let _0x5d86e4=selectedSong[_0x56881d(0x114)][selectedBeat];_0x5d86e4==='|'&&(selectedBeat++,_0x5d86e4=selectedSong[_0x56881d(0x114)][selectedBeat]);_0x5d86e4==='|:'&&(selectedBeat++,repeatBegin=selectedBeat,applyRepeat=!![]);if(_0x5d86e4===':|'){if(applyRepeat===!![])selectedBeat=repeatBegin,applyRepeat=![];else selectedBeat++;}_0x5d86e4===':|:'&&(applyRepeat===!![]?(selectedBeat=repeatBegin,applyRepeat=![]):(selectedBeat++,repeatBegin=selectedBeat,applyRepeat=!![]));_0x5d86e4=selectedSong['notes'][selectedBeat];if(selectedBeat===selectedSong[_0x56881d(0x114)]['length']){selectedBeat=0x0,repeatBegin=0x0,applyRepeat=!![];return;}indexOfNoteInNotes=notes[_0x56881d(0x166)](_0x5d86e4),audioFiles[indexOfNoteInNotes]['play'](),document[_0x56881d(0x145)](_0x56881d(0x163)+selectedBeat)['classList'][_0x56881d(0xec)]('selected-note-highlight'),_0x5d86e4!=='-'&&(document[_0x56881d(0x145)](_0x56881d(0x14c)+indexOfNoteInNotes)[_0x56881d(0xd3)]['add'](_0x56881d(0x11a)),document[_0x56881d(0x145)](_0x56881d(0xd7)+indexOfNoteInNotes)[_0x56881d(0xd3)][_0x56881d(0xec)](_0x56881d(0x11a))),intervalID=setInterval(playSong,selectedSong[_0x56881d(0x122)][selectedBeat]*0xea60/(selectedSong[_0x56881d(0x14f)]*tempo)),selectedBeat++;}const buttonPlay=document[_0x3877e3(0x145)]('.js-button-play');buttonPlay[_0x3877e3(0xdf)](_0x3877e3(0x152),playSong);const buttonPause=document[_0x3877e3(0x145)](_0x3877e3(0x123));buttonPause[_0x3877e3(0xdf)](_0x3877e3(0x152),function(){clearInterval(intervalID);});const buttonStop=document['querySelector']('.js-button-stop');buttonStop[_0x3877e3(0xdf)](_0x3877e3(0x152),stopPlayback);function stopPlayback(){const _0x1dc02c=_0x3877e3;clearInterval(intervalID),selectedBeat=0x0,repeatBegin=0x0,applyRepeat=!![],document[_0x1dc02c(0xcf)](_0x1dc02c(0x10f))[_0x1dc02c(0x118)](function(_0x5edb06){const _0x784334=_0x1dc02c;_0x5edb06[_0x784334(0xd3)]['remove']('selected-note-highlight');}),document[_0x1dc02c(0xcf)]('.frets-container\x20button')[_0x1dc02c(0x118)](function(_0x3c52b4){const _0x5eb9a7=_0x1dc02c;_0x3c52b4[_0x5eb9a7(0xd3)][_0x5eb9a7(0x15b)](_0x5eb9a7(0x11a));}),document[_0x1dc02c(0xcf)]('.long-frets-container\x20button')[_0x1dc02c(0x118)](function(_0x437513){const _0x34adde=_0x1dc02c;_0x437513[_0x34adde(0xd3)][_0x34adde(0x15b)](_0x34adde(0x11a));});}document[_0x3877e3(0x145)](_0x3877e3(0xd5))[_0x3877e3(0xf4)]=selectedSong[_0x3877e3(0xf9)];let symbols=['\x20',_0x3877e3(0x128),_0x3877e3(0x104),_0x3877e3(0x144),_0x3877e3(0x13c),_0x3877e3(0x15e),_0x3877e3(0x137),'&#9489;',_0x3877e3(0x12e),_0x3877e3(0x12b),_0x3877e3(0xe0)],beatValues=[0x0,0x3,0x2,0x1,0x3/0x2,0x1/0x2,0x3/0x4,0x1/0x15,0x1/0x4,0x3/0x8,0x1/0x29];function writeBeatValues(_0xf67ddd){const _0x3243ef=_0x3877e3;let _0x461edf=beatValues[_0x3243ef(0x166)](_0xf67ddd);return symbols[_0x461edf];}function writeNotes(_0x3f5bab,_0x183b92){const _0x82ee0=_0x3877e3;let _0x2c5354=document[_0x82ee0(0x145)](_0x82ee0(0xee))[_0x82ee0(0xf4)],_0x698b2b=notes['indexOf'](_0x3f5bab),_0x56da29=_0x82ee0(0x120)+writeBeatValues(selectedSong['beats'][_0x183b92])+_0x82ee0(0xf0)+_0x183b92+_0x82ee0(0x117)+noteNames[_0x698b2b]+'</div><div\x20class=lyrics>'+selectedSong[_0x82ee0(0xe5)][_0x183b92]+_0x82ee0(0x142);_0x2c5354=_0x2c5354+_0x56da29,document['querySelector'](_0x82ee0(0xee))['innerHTML']=_0x2c5354;}selectedSong[_0x3877e3(0x114)]['forEach'](writeNotes);function selectNoteToPlay(_0x57a81b,_0xc16a02){const _0x1ace5f=_0x3877e3;document[_0x1ace5f(0x145)]('.js-note-'+_0xc16a02)['addEventListener'](_0x1ace5f(0x152),function(){const _0x460a69=_0x1ace5f;selectedBeat=_0xc16a02;let _0x114475=selectedSong[_0x460a69(0x114)][selectedBeat];indexOfNoteInNotes=notes[_0x460a69(0x166)](_0x114475),document[_0x460a69(0xcf)](_0x460a69(0x10f))[_0x460a69(0x118)](function(_0x43339b){const _0x4a3c9e=_0x460a69;_0x43339b[_0x4a3c9e(0xd3)][_0x4a3c9e(0x15b)]('selected-note-highlight');}),document[_0x460a69(0x145)](_0x460a69(0x163)+selectedBeat)[_0x460a69(0xd3)]['add']('selected-note-highlight'),document['querySelectorAll'](_0x460a69(0x100))['forEach'](function(_0x44ebb2){const _0x50a40f=_0x460a69;_0x44ebb2[_0x50a40f(0xd3)][_0x50a40f(0x15b)](_0x50a40f(0x11a));}),document['querySelectorAll'](_0x460a69(0x16c))['forEach'](function(_0x458c30){const _0x2977b6=_0x460a69;_0x458c30['classList']['remove'](_0x2977b6(0x11a));}),document[_0x460a69(0x145)](_0x460a69(0x14c)+indexOfNoteInNotes)[_0x460a69(0xd3)]['add'](_0x460a69(0x11a)),document[_0x460a69(0x145)]('.long-frets-container\x20.fret-'+indexOfNoteInNotes)[_0x460a69(0xd3)][_0x460a69(0xec)](_0x460a69(0x11a));});}selectedSong['notes'][_0x3877e3(0x118)](selectNoteToPlay),document['querySelector'](_0x3877e3(0xfb))[_0x3877e3(0xf4)]=_0x3877e3(0x129)+selectedSong['notation']+_0x3877e3(0x156)+selectedSong['notation']+'</a>)';function showNotation(_0x49b17b){const _0x521cfe=_0x3877e3;let _0x128ef5=document['querySelector'](_0x521cfe(0x15a))[_0x521cfe(0xf4)],_0x19ae6a=_0x521cfe(0xd1)+_0x49b17b[_0x521cfe(0x168)]+_0x521cfe(0x146);_0x128ef5=_0x128ef5+_0x19ae6a,document[_0x521cfe(0x145)](_0x521cfe(0x15a))[_0x521cfe(0xf4)]=_0x128ef5;}showNotation(selectedSong),document[_0x3877e3(0x145)]('.full-lyrics')['innerHTML']=selectedSong[_0x3877e3(0xda)];let tempoSelector=document[_0x3877e3(0x105)]('js-tempo-selector'),output=document[_0x3877e3(0x105)](_0x3877e3(0x102));output[_0x3877e3(0xf4)]=_0x3877e3(0x165)+tempoSelector[_0x3877e3(0xfd)]+'%';let tempo=tempoSelector[_0x3877e3(0xfd)]/0x64;tempoSelector[_0x3877e3(0x164)]=function(){const _0x534a49=_0x3877e3;tempo=tempoSelector['value']/0x64,output[_0x534a49(0xf4)]=_0x534a49(0x165)+this[_0x534a49(0xfd)]+'%';};let shortNeckSelector=document[_0x3877e3(0x105)]('short-neck');shortNeckSelector[_0x3877e3(0x164)]=function(){const _0x3f6612=_0x3877e3;shortNeckSelector[_0x3f6612(0xfd)]===_0x3f6612(0xd6)&&(document['querySelector']('.baglama-keyboard')[_0x3f6612(0xd3)][_0x3f6612(0x15b)](_0x3f6612(0xf1)),document[_0x3f6612(0x145)](_0x3f6612(0x15f))[_0x3f6612(0xd3)]['add'](_0x3f6612(0xf1)));};let longNeckSelector=document[_0x3877e3(0x105)](_0x3877e3(0x14b));longNeckSelector[_0x3877e3(0x164)]=function(){const _0x4fde36=_0x3877e3;longNeckSelector[_0x4fde36(0xfd)]===_0x4fde36(0x14b)&&(document[_0x4fde36(0x145)](_0x4fde36(0x119))[_0x4fde36(0xd3)]['add'](_0x4fde36(0xf1)),document[_0x4fde36(0x145)](_0x4fde36(0x15f))['classList'][_0x4fde36(0x15b)](_0x4fde36(0xf1)));},window[_0x3877e3(0x11b)]=function(){stickyMainPart(),scrollFunction();};let mainPart=document[_0x3877e3(0x145)](_0x3877e3(0x13a)),sticky=mainPart[_0x3877e3(0x155)]-0x60;function _0x39fa(_0x4962ad,_0x4e48f4){const _0x568c3e=_0x568c();return _0x39fa=function(_0x39fa0c,_0x4f85b6){_0x39fa0c=_0x39fa0c-0xcd;let _0x341285=_0x568c3e[_0x39fa0c];return _0x341285;},_0x39fa(_0x4962ad,_0x4e48f4);}function stickyMainPart(){const _0x44c11c=_0x3877e3;window['pageYOffset']>=sticky?mainPart[_0x44c11c(0xd3)][_0x44c11c(0xec)](_0x44c11c(0xe3)):mainPart[_0x44c11c(0xd3)]['remove'](_0x44c11c(0xe3));}function scrollFunction(){const _0xbc7c7=_0x3877e3;document['body'][_0xbc7c7(0xd4)]>0x40||document[_0xbc7c7(0x15c)][_0xbc7c7(0xd4)]>0x40?(document['querySelector'](_0xbc7c7(0x162))[_0xbc7c7(0xd3)]['add']('banner-shrinked'),document['querySelector'](_0xbc7c7(0xf3))[_0xbc7c7(0xd3)][_0xbc7c7(0xec)]('logo-shrinked'),document[_0xbc7c7(0x145)](_0xbc7c7(0x115))[_0xbc7c7(0xd3)][_0xbc7c7(0xec)](_0xbc7c7(0xe4)),document[_0xbc7c7(0x145)](_0xbc7c7(0x12a))[_0xbc7c7(0xd3)][_0xbc7c7(0xec)](_0xbc7c7(0xcd)),document[_0xbc7c7(0x145)](_0xbc7c7(0x16e))[_0xbc7c7(0xd3)][_0xbc7c7(0xec)](_0xbc7c7(0x131))):(document['querySelector']('.banner')[_0xbc7c7(0xd3)]['remove'](_0xbc7c7(0x16a)),document[_0xbc7c7(0x145)](_0xbc7c7(0xf3))[_0xbc7c7(0xd3)][_0xbc7c7(0x15b)](_0xbc7c7(0xfc)),document[_0xbc7c7(0x145)](_0xbc7c7(0x115))[_0xbc7c7(0xd3)][_0xbc7c7(0x15b)](_0xbc7c7(0xe4)),document['querySelector'](_0xbc7c7(0x12a))['classList'][_0xbc7c7(0x15b)](_0xbc7c7(0xcd)),document['querySelector']('nav')[_0xbc7c7(0xd3)][_0xbc7c7(0x15b)](_0xbc7c7(0x131)));}
+import { allSongs} from "../songs/songs.js";
+
+//get song id info from url
+// Support both old query parameter format and new path-based format
+let urlParamId;
+const urlKey = window.location.search;
+const urlParams = new URLSearchParams(urlKey);
+const queryParamId = urlParams.get('songId');
+
+if (queryParamId) {
+  // Old format: eser-detay.html?songId=izmirin-kavaklari
+  urlParamId = queryParamId;
+} else {
+  // New format: eser-detay/izmirin-kavaklari.html
+  const pathname = window.location.pathname;
+  const pathParts = pathname.split('/');
+  const fileName = pathParts[pathParts.length - 1]; // Get the last part (e.g., "izmirin-kavaklari.html")
+  urlParamId = fileName.replace('.html', ''); // Remove .html extension
+}
+
+//find selectedSong using the id value from url
+let selectedSong = allSongs.find((obj) => obj['id'] === urlParamId);
+
+//change page title & meta description according to song name
+let metaDescription = document.querySelector('meta[name="description"]');
+let description = `Bağlama ile ${selectedSong.title} türküsü nasıl çalınır? ${selectedSong.secondTitle} nasıl çalınır? ${selectedSong.title} notaları, ${selectedSong.title} türküsü sözleri`;
+metaDescription.content = description;
+document.title = `${selectedSong.title} | Bağlama Çal`;
+
+//define notes
+const notes = ['Al','Bbl','Bb2l','Bl','Cl','C#3l','C#l','Dl','Ebl','Eb2l','El','Fl','F#3l','F#l','Gl','Abl','Ab2l','Am','Bbm','Bb2m','Bm','Cm','C#3m','C#m','Dm','Ebm','Eb2m','Em','Fm','F#3m','F#m','Gm','Abm','Ab2m','Ah','Bbh','Bb2h','Bh','Ch','C#3h','C#h','Dh','Ebh','Eb2h','Eh','Fh','F#3h','F#h','Gh','Abh','Ab2h','-','|',':|','|:',':|:'];
+const noteNames = ['La', 'Si&flat;','Si&flat;<sup>2</sup>', 'Si', 'Do','Do&sharp;<sup>3</sup>','Do&sharp;','Re','Mi&flat;','Mi&flat;<sup>2</sup>','Mi','Fa','Fa&sharp;<sup>3</sup>','Fa&sharp;','Sol','La&flat;','La&flat;<sup>2</sup>','La', 'Si&flat;','Si&flat;<sup>2</sup>', 'Si', 'Do','Do&sharp;<sup>3</sup>','Do&sharp;','Re','Mi&flat;','Mi&flat;<sup>2</sup>','Mi','Fa','Fa&sharp;<sup>3</sup>','Fa&sharp;','Sol','La&flat;','La&flat;<sup>2</sup>','La', 'Si&flat;','Si&flat;<sup>2</sup>', 'Si', 'Do','Do&sharp;<sup>3</sup>','Do&sharp;','Re','Mi&flat;','Mi&flat;<sup>2</sup>','Mi','Fa','Fa&sharp;<sup>3</sup>','Fa&sharp;','Sol','La&flat;','La&flat;<sup>2</sup>','-','|',':|','|:',':|:'];
+
+
+//define audio files
+let audioAl = new Audio('http://www.freesound.org/data/previews/39/39172_35187-lq.mp3');
+let audioBbl = new Audio('http://www.freesound.org/data/previews/39/39173_35187-lq.mp3');
+let audioBb2l = new Audio('http://www.freesound.org/data/previews/39/39173_35187-lq.mp3');
+let audioBl = new Audio('http://www.freesound.org/data/previews/39/39174_35187-lq.mp3');
+let audioCl = new Audio('http://www.freesound.org/data/previews/39/39175_35187-lq.mp3');
+let audioCs3l = new Audio('http://www.freesound.org/data/previews/39/39176_35187-lq.mp3');
+let audioCsl = new Audio('http://www.freesound.org/data/previews/39/39176_35187-lq.mp3');
+let audioDl = new Audio('http://www.freesound.org/data/previews/39/39177_35187-lq.mp3');
+let audioEbl = new Audio('http://www.freesound.org/data/previews/39/39178_35187-lq.mp3');
+let audioEb2l = new Audio('http://www.freesound.org/data/previews/39/39178_35187-lq.mp3');
+let audioEl = new Audio('http://www.freesound.org/data/previews/39/39179_35187-lq.mp3');
+let audioFl = new Audio('http://www.freesound.org/data/previews/39/39180_35187-lq.mp3');
+let audioFs3l = new Audio('http://www.freesound.org/data/previews/39/39181_35187-lq.mp3');
+let audioFsl = new Audio('http://www.freesound.org/data/previews/39/39181_35187-lq.mp3');
+let audioGl = new Audio('https://cdn.freesound.org/previews/717/717204_15530819-lq.mp3');
+let audioAbl = new Audio('https://cdn.freesound.org/previews/717/717179_15530819-lq.mp3');
+let audioAb2l = new Audio('https://cdn.freesound.org/previews/717/717178_15530819-lq.mp3');
+let audioA = new Audio('https://cdn.freesound.org/previews/717/717175_15530819-lq.mp3');
+let audioBb = new Audio('https://cdn.freesound.org/previews/717/717182_15530819-lq.mp3');
+let audioBb2 = new Audio('https://cdn.freesound.org/previews/717/717183_15530819-lq.mp3');
+let audioB = new Audio('https://cdn.freesound.org/previews/717/717181_15530819-lq.mp3');
+let audioC = new Audio('https://cdn.freesound.org/previews/717/717187_15530819-lq.mp3');
+let audioCs3 = new Audio('https://cdn.freesound.org/previews/717/717190_15530819-lq.mp3');
+let audioCs = new Audio('https://cdn.freesound.org/previews/717/717189_15530819-lq.mp3');
+let audioD = new Audio('https://cdn.freesound.org/previews/719/719281_15530819-lq.mp3');
+let audioEb = new Audio('https://cdn.freesound.org/previews/717/717196_15530819-lq.mp3');
+let audioEb2 = new Audio('https://cdn.freesound.org/previews/717/717197_15530819-lq.mp3');
+let audioE = new Audio('https://cdn.freesound.org/previews/717/717195_15530819-lq.mp3');
+let audioF = new Audio('https://cdn.freesound.org/previews/717/717200_15530819-lq.mp3');
+let audioFs3 = new Audio('https://cdn.freesound.org/previews/717/717202_15530819-lq.mp3');
+let audioFs = new Audio('https://cdn.freesound.org/previews/717/717201_15530819-lq.mp3');
+let audioG = new Audio('https://cdn.freesound.org/previews/717/717203_15530819-lq.mp3');
+let audioAb = new Audio('https://cdn.freesound.org/previews/717/717176_15530819-lq.mp3');
+let audioAb2 = new Audio('https://cdn.freesound.org/previews/717/717177_15530819-lq.mp3');
+let audioAh = new Audio('https://cdn.freesound.org/previews/717/717180_15530819-lq.mp3');
+let audioBbh = new Audio('https://cdn.freesound.org/previews/717/717185_15530819-lq.mp3');
+let audioBb2h = new Audio('https://cdn.freesound.org/previews/717/717184_15530819-lq.mp3');
+let audioBh = new Audio('https://cdn.freesound.org/previews/717/717186_15530819-lq.mp3');
+let audioCh = new Audio('https://cdn.freesound.org/previews/717/717188_15530819-lq.mp3');
+let audioCs3h = new Audio('https://cdn.freesound.org/previews/717/717191_15530819-lq.mp3');
+let audioCsh = new Audio('https://cdn.freesound.org/previews/717/717192_15530819-lq.mp3');
+let audioDh = new Audio('https://cdn.freesound.org/previews/717/717194_15530819-lq.mp3');
+let audioEbh = new Audio('https://cdn.freesound.org/previews/717/717198_15530819-lq.mp3');
+let audioEb2h = new Audio('https://cdn.freesound.org/previews/717/717198_15530819-lq.mp3');
+let audioEh = new Audio('https://cdn.freesound.org/previews/717/717199_15530819-lq.mp3');
+let audioFh = new Audio('http://www.freesound.org/data/previews/39/39205_35187-lq.mp3');
+let audioFs3h = new Audio('http://www.freesound.org/data/previews/39/39206_35187-lq.mp3');
+let audioFsh = new Audio('http://www.freesound.org/data/previews/39/39206_35187-lq.mp3');
+let audioGh = new Audio('http://www.freesound.org/data/previews/39/39207_35187-lq.mp3');
+let audioAbh = new Audio('http://www.freesound.org/data/previews/39/39208_35187-lq.mp3');
+let audioAb2h = new Audio('http://www.freesound.org/data/previews/39/39208_35187-lq.mp3');
+let audioSilence = new Audio('https://cdn.freesound.org/previews/472/472955_6142149-lq.mp3');
+
+//create an array of the audio files
+const audioFiles = [audioAl,audioBbl,audioBb2l,audioBl,audioCl,audioCs3l,audioCsl,audioDl,audioEbl,audioEb2l,audioEl,audioFl,audioFs3l,audioFsl,audioGl,audioAbl,audioAb2l,audioA,audioBb,audioBb2,audioB,audioC,audioCs3,audioCs,audioD,audioEb,audioEb2,audioE,audioF,audioFs3,audioFs,audioG,audioAb,audioAb2,audioAh,audioBbh,audioBb2h,audioBh,audioCh,audioCs3h,audioCsh,audioDh,audioEbh,audioEb2h,audioEh,audioFh,audioFs3h,audioFsh,audioGh,audioAbh,audioAb2h,audioSilence];
+
+//PLAYING SONG
+let intervalID = 0;
+let selectedBeat = 0;
+let indexOfNoteInNotes = 0;
+let repeatBegin = 0;
+let applyRepeat = true;
+
+//Function to play in intervals
+function playSong(){
+  
+  clearInterval(intervalID); //interval is cleared each time to change the interval duration
+  
+  //reset the audio before each beat
+  audioFiles[indexOfNoteInNotes].pause();
+  audioFiles[indexOfNoteInNotes].currentTime = 0; 
+
+  //reset the highlights before each beat
+  document.querySelectorAll('.js-note').forEach(function(value){value.classList.remove('selected-note-highlight');}); //remove highlight from all notes each time to highlight only the active note
+  document.querySelectorAll('.frets-container button').forEach(function(value){value.classList.remove('selected-fret-visible');}); //remove highlight from all frets to highlight only the active fret
+  document.querySelectorAll('.long-frets-container button').forEach(function(value){value.classList.remove('selected-fret-visible');}); //LongNeck - remove highlight from all frets to highlight only the active fret
+
+  let selectedNote = selectedSong.notes[selectedBeat]; //the note in the current beat
+  
+  //bar lines and repeat controls
+  if (selectedNote === '|') {selectedBeat++;selectedNote = selectedSong.notes[selectedBeat];} //don't play bar endings and assign selectedNote again if it has to be skipped
+  if (selectedNote === '|:') {selectedBeat++; repeatBegin = selectedBeat; applyRepeat = true;}
+  if (selectedNote === ':|') {
+    if (applyRepeat === true) {
+      selectedBeat = repeatBegin;
+      applyRepeat = false;
+    }
+    else selectedBeat++;
+  }
+  if (selectedNote === ':|:') {
+    if (applyRepeat === true) {
+      selectedBeat = repeatBegin;
+      applyRepeat = false;
+    }
+    else {
+      selectedBeat++; 
+      repeatBegin = selectedBeat; 
+      applyRepeat = true;
+    }
+  }
+  selectedNote = selectedSong.notes[selectedBeat];
+  
+  //exit function at the last note
+  if (selectedBeat === selectedSong.notes.length) {selectedBeat=0; repeatBegin = 0; applyRepeat = true; return;}
+
+  indexOfNoteInNotes = notes.indexOf(selectedNote);
+  audioFiles[indexOfNoteInNotes].play(); //play the corresponding audio file
+  document.querySelector(`.js-note-${selectedBeat}`).classList.add('selected-note-highlight'); //highlight the note in notation
+  if(selectedNote !== '-'){
+    document.querySelector(`.frets-container .fret-${indexOfNoteInNotes}`).classList.add('selected-fret-visible'); //show the fret on baglama
+    document.querySelector(`.long-frets-container .fret-${indexOfNoteInNotes}`).classList.add('selected-fret-visible'); //LongNeck - show the fret on baglama
+  } 
+  intervalID = setInterval(playSong, selectedSong.beats[selectedBeat] * 60000 / (selectedSong.tempo*tempo));
+  selectedBeat++; //move to next beat
+  //if (selectedBeat === selectedSong.notes.length || selectedBeat === selectedSong.notes.length+1 || selectedBeat === selectedSong.notes.length+2) {clearInterval(intervalID); selectedBeat = 0;}
+}
+
+//Play, Pause, Stop button events
+const buttonPlay = document.querySelector('.js-button-play');
+buttonPlay.addEventListener("click", playSong);
+
+const buttonPause = document.querySelector('.js-button-pause');
+buttonPause.addEventListener("click", function() {clearInterval(intervalID);});
+
+const buttonStop = document.querySelector('.js-button-stop');
+buttonStop.addEventListener("click", stopPlayback);
+function stopPlayback () {
+  clearInterval(intervalID);
+  selectedBeat = 0;
+  repeatBegin = 0;
+  applyRepeat = true; 
+  document.querySelectorAll('.js-note').forEach(function(value){value.classList.remove('selected-note-highlight');}); 
+  document.querySelectorAll('.frets-container button').forEach(function(value){value.classList.remove('selected-fret-visible');});
+  document.querySelectorAll('.long-frets-container button').forEach(function(value){value.classList.remove('selected-fret-visible');});
+}
+
+
+//GENERATING HTML
+//Write Title
+document.querySelector('.main-title').innerHTML = selectedSong.title;
+
+
+//Writing Beat Values
+let symbols = [' ','&#8857','&#183','&#9475;','&#9475;.','&#9485;','&#9485;.','&#9489;','&#9554;','&#9554;.','&#9557;'];
+let beatValues = [0,3,2,1,3/2,1/2,3/4,1/21,1/4,3/8,1/41]
+function writeBeatValues(item) {
+  let indexOfBeatValue = beatValues.indexOf(item);
+  return symbols[indexOfBeatValue];
+}
+
+//Writing Note Names of the Selected Song
+function writeNotes(item, index) {
+  let html = document.querySelector('.beats-notes-lyrics').innerHTML;
+  let indexOfNoteInNotes = notes.indexOf(item);
+  //let noteName = `<div class="js-note-${index} js-note"> ${noteNames[indexOfNoteInNotes]}</div>`; //Only NoteName
+  let noteName = `<div class="each-beat"><div class="beat-values">${writeBeatValues(selectedSong.beats[index])}</div><div class="js-note-${index} js-note"> ${noteNames[indexOfNoteInNotes]}</div><div class=lyrics>${selectedSong.lyrics[index]}</div></div>`; //Note Name and Lyrics Together
+  html = html+noteName;
+  document.querySelector('.beats-notes-lyrics').innerHTML = html;
+}
+selectedSong.notes.forEach(writeNotes);
+
+//Manually selecting the beats to play from. Selected note is highlighted in notation and on the keyboard
+function selectNoteToPlay(item, index) {
+  document.querySelector(`.js-note-${index}`).addEventListener('click', function(){
+    selectedBeat = index;
+    let selectedNote = selectedSong.notes[selectedBeat];
+    indexOfNoteInNotes = notes.indexOf(selectedNote);
+    document.querySelectorAll('.js-note').forEach(function(value){value.classList.remove('selected-note-highlight');});
+    document.querySelector(`.js-note-${selectedBeat}`).classList.add('selected-note-highlight');
+    document.querySelectorAll('.frets-container button').forEach(function(value){value.classList.remove('selected-fret-visible');});
+    document.querySelectorAll('.long-frets-container button').forEach(function(value){value.classList.remove('selected-fret-visible');});
+    document.querySelector(`.frets-container .fret-${indexOfNoteInNotes}`).classList.add('selected-fret-visible');
+    document.querySelector(`.long-frets-container .fret-${indexOfNoteInNotes}`).classList.add('selected-fret-visible');
+  });
+}
+selectedSong.notes.forEach(selectNoteToPlay); //add event listener for each beat of the song
+
+
+//Show notation link of notaarsivleri.com
+document.querySelector('.notation-link').innerHTML = `(Kaynak: <a href="${selectedSong.notation}" target="_blank" rel="noopener noreferrer">${selectedSong.notation}</a>)`;
+
+//Show notation of the selected song from notaarsivleri.com
+function showNotation(item) {
+  let html = document.querySelector('.notation').innerHTML;
+  let notation = `<embed src="${item.notation}" type="text/html" height="760px" width="500px"/>`;
+  html = html+notation;
+  document.querySelector('.notation').innerHTML = html;
+}
+showNotation(selectedSong);
+
+//Show full lyrics
+document.querySelector('.full-lyrics').innerHTML = selectedSong.fullLyrics;
+
+//TEMPO SLIDER
+let tempoSelector = document.getElementById("js-tempo-selector");
+let output = document.getElementById("tempo-value");
+output.innerHTML = `Hız: ${tempoSelector.value}%`;
+let tempo = tempoSelector.value/100;
+tempoSelector.oninput = function() {
+  tempo = tempoSelector.value/100;
+  output.innerHTML = `Hız: ${this.value}%`;
+}
+
+//SHOW THE SELECTED NECK TYPE ONLY
+let shortNeckSelector = document.getElementById("short-neck");
+shortNeckSelector.oninput = function() {
+  if (shortNeckSelector.value === "short-neck") {
+    document.querySelector(`.baglama-keyboard`).classList.remove('hide-section');
+    document.querySelector(`.long-baglama-keyboard`).classList.add('hide-section');
+}
+}
+let longNeckSelector = document.getElementById("long-neck");
+longNeckSelector.oninput = function() {
+  if (longNeckSelector.value === "long-neck") {
+    document.querySelector(`.baglama-keyboard`).classList.add('hide-section');
+    document.querySelector(`.long-baglama-keyboard`).classList.remove('hide-section');
+}
+}
+
+//KEEP THE MAIN PART ON SCREEN
+window.onscroll = function() {stickyMainPart(); scrollFunction();};
+let mainPart = document.querySelector('.main-part');
+let sticky = mainPart.offsetTop - 96; // Get the offset position of the main part
+function stickyMainPart() {
+  if (window.pageYOffset >= sticky) {
+    mainPart.classList.add('main-part-sticky')
+  } else {
+    mainPart.classList.remove('main-part-sticky');
+  }
+}
+
+function scrollFunction() {
+  if (document.body.scrollTop > 64 || document.documentElement.scrollTop > 64) {
+    document.querySelector('.banner').classList.add('banner-shrinked');
+    document.querySelector('.logo').classList.add('logo-shrinked');
+    document.querySelector('.title').classList.add('title-shrinked');
+    document.querySelector('.subtitle').classList.add('subtitle-shrinked');
+    document.querySelector('nav').classList.add('nav-shrinked');
+  } 
+  else {
+    document.querySelector('.banner').classList.remove('banner-shrinked');
+    document.querySelector('.logo').classList.remove('logo-shrinked');
+    document.querySelector('.title').classList.remove('title-shrinked');
+    document.querySelector('.subtitle').classList.remove('subtitle-shrinked');
+    document.querySelector('nav').classList.remove('nav-shrinked');
+  }
+}
