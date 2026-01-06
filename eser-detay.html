@@ -1,58 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-88QV4GWT0G"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  
+  <script>
+    // 1. Capture the Song ID from the current URL parameter
+    const params = new URLSearchParams(window.location.search);
+    const songId = params.get('songId');
 
-      gtag("config", "G-88QV4GWT0G");
-    </script>
+    if (songId) {
+       // 2. Define the new destination
+       // This assumes your new files are named exactly like the IDs (e.g., 'acem-gizi.html')
+       const newUrl = "https://baglamacal.com/eser-detay/" + songId + ".html";
 
-    <!-- Google AdSense code-->
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7789531154667565"
-      crossorigin="anonymous"
-    ></script>
+       // 3. Set the Canonical Link (Crucial for Google!)
+       // This tells Google: "The page I am sending you to is the MASTER copy."
+       const link = document.createElement('link');
+       link.rel = 'canonical';
+       link.href = newUrl;
+       document.head.appendChild(link);
 
-    <title>Türkü Çal | Bağlama Çal</title>
-    <link rel="icon" type="image/x-icon" href="images/baglama_header.png" />
-    <!--favicon-->
-
-    <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Bağlama ile sevdiğin eserleri çal. Bağlama ile türküsü nasıl çalınır?"
-    />
-    <meta
-      name="keywords"
-      content="Bağlama, Saz, Eser, Nota, Türkü, Solfej, Kısa Sap, Uzun Sap"
-    />
-    <meta name="author" content="Fatih Celil Erim" />
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
-
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/eser-detay.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Poppins"
-    />
-
-    <style>
-      body {
-        font-family: "Poppins", Arial, Helvetica, sans-serif;
-        margin: 0;
-      }
-    </style>
-  </head>
+       // 4. Perform the Redirect
+       // 'location.replace' is better than 'location.href' because it doesn't keep the 
+       // old page in the "Back" button history.
+       window.location.replace(newUrl);
+    } else {
+       // Optional: If no songId is found, go to the homepage or a list page
+       window.location.replace("https://baglamacal.com");
+    }
+  </script>
+  
+  <meta http-equiv="refresh" content="0; url=https://baglamacal.com">
+  
+  <meta name="robots" content="noindex">
+</head>  
 
   <body>
     <header>
@@ -213,7 +195,7 @@
     </main>
 
     <script type="module" src="songs/songs.js"></script>
-    <script type="module" src="scripts/eser-detay.js"></script>
+    <!--<script type="module" src="scripts/eser-detay.js"></script>-->
     <!--<script src="scripts/header.js"></script> - it had to be executed in this page's JS file because it runs multiple window.onscroll function-->
   </body>
 </html>
