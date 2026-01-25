@@ -403,4 +403,36 @@ const urfaninEtrafi = {
   notation: 'https://www.notaarsivleri.com/NotaMuzik/urfa%27nin_etrafi_dumanli_daglar.pdf' 
 }
 
-export let allSongs = [havadaBulutYok,manastirinOrtasinda,tirenGelirHosGelir,agriDagindanUcdum,canakkaleIcindeAynaliCarsi,uzunInceBirYoldayim,izmirinKavaklari,hekimoglu,alliDurnam,denizUstuKopurur,kagizmanaIsmarladim,birFirtinaTuttuBizi,neAglarsinBenimZulfuSiyahim,karahisarKalesi,evlerininOnuBulgurKazani,kizilciklarOlduMu,ordununDereleri,urfaninEtrafi,pencereAcildi,atesAttimSamana,igdirinAlAlmasi,kirmiziGulunAliVar,divaneAsikGibi,yarimSendenAyrilali,telgirafinTellerine,samanliktanGaldiramadimSamani,acemGizi];
+const cayirCimenGezeGeze = {
+  id: 'cayir-cimen-geze-geze',
+  title: 'Çayır Çimen Geze Geze',
+  secondTitle:  `Çayır Çimen`,
+  region: 'Akdeniz',
+  difficulty: 'Zor',
+  time: '9/8',
+  tempo: 120,
+  notes: ['Am','Gl','Am','Bb2m','Cm','C#m','Cm','Bb2m','|','Cm','C#m','Cm','Bb2m','Cm','C#m','Cm','Am','|','Am','Gl','Am','Bb2m','Cm','Dm','Cm','Bb2m','|','Cm','-','-','-','-','|','Cm','Dm','Dm','Dm','Dm','Em','Cm','|','Cm','Cm','Cm','Cm','Cm','Bb2m','Dm','Bb2m','|','Bb2m','Bb2m','Bb2m','Bb2m','Bb2m','Am','Cm','Bb2m','Am','|','Em','Em','Em','Dm','Dm','Dm','-','|','Cm','Dm','Dm','Dm','Dm','Em','Cm','|','Cm','Cm','Cm','Cm','Cm','Bb2m','Dm','Bb2m','|','Bb2m','Bb2m','Am','Cm','Bb2m','Am','|','Am','-','-','-','|'],
+  beats: [1/2,1/2,1/2,1/2,1/2,1/2,1,1/2,0,1/2,1/2,1/2,1/2,1/2,1/2,1,1/2,0,1/2,1/2,1/2,1/2,1/2,1/2,1,1/2,0,1,1,1,1,1/2,0,1/2,1/2,1/2,1/2,1,1,1/2,0,1/2,1/2,1/2,1/2,3/4,1/4,1,1/2,0,1/2,1/2,1/2,1/2,3/4,1/4,1/2,1/2,1/2,0,1,1/2,1/4,1/4,1,1,1/2,0,1/2,1/2,1/2,1/2,1,1,1/2,0,1/2,1/2,1/2,1/2,3/4,1/4,1,1/2,0,2,3/4,1/4,1/2,1/2,1/2,0,2,1,1,1/2,0],
+  lyrics: ['CA','YIR','Çİ','MEN','GE','ZE','GE','ZE',' ','OF','-','-','-','OF','-','-','-',' ','ÇA','YIR','Çİ','MEN','GE','ZE','GE','ZE',' ','OF',' ',' ',' ',' ',' ','OL','DUM','BEN','BİR','GE','VE','ZE',' ','KI','ZI','NA','ME','YİL','-','VER','DİM',' ','DA','RIL','MA','HA','NIM','-','TEY','-','ZE',' ','OF','NE','NEM','-','OF','-',' ',' ','KI','ZI','NA','ME','YİL','VER','DİM',' ','DA','RIL','MA','HA','NIM','-','TEY','ZE',' ','OF','-','-','NE','NEM','-',' ','OF','-','-','-',' '],
+  fullLyrics: 'Çayır çimen geze geze <br> Oldum ben bir geveze <br> Kızına meyil verdim <br> Darılma hanım teyze (of ninem of) <br><br> Pencereden kuş uçtu <br> Yandı yürek tutuştu <br> Yanma yüreğim yanma <br> Ayrılık bize düştü (of ninem of) <br><br> Simitimin tablası <br> Geldi düğün haftası <br> Gelin olacam diye <br> Nedir bunun tafrası (of ninem of)',
+  notation: 'https://www.notaarsivleri.com/NotaMuzik/cayir_cimen_geze_geze.pdf' 
+}
+
+const cemilem = {
+  id: 'cemilem',
+  title: 'Cemilemin Gezdiği Dağlar Meşeli',
+  secondTitle:  'Cemilem',
+  region: 'Ege',
+  difficulty: 'Zor',
+  time: '9/8',
+  tempo: 130,
+  notes: ['Cm','Dm','Dm','Dm','Dm','Em','Dm','Cm','Dm','Cm','Dm','Bb2m','|','Cm','Dm','Dm','Dm','Dm','Dm','Em','Dm','Cm','Bb2m','Cm','|','Bb2m','Am','Am','Am','Am','Am','Am','Am','Am','|','Gl','Am','Am','Am','Am','Gl','Am','Am','Am','Am','Am','|','Gl','Am','Am','Am','Am','Gl','Am','Am','Am','Am','Am','|:','F#m','Gm','Gm','Gm','F#m','Gm','Gm','Gm','|','F#m','F#m','F#m','Gm','Em','Dm','Em','|','Dm','Gm','Gm','F#m','Gm','Em','|','Gl','Am','Am','Am','Am','Gl','Am','Am','Am','Am','Am',':|:','Gm','F#m','Em','Dm','Dm','Dm','Cm','Dm','Cm','Dm','Bb2m','|','Cm','Dm','Dm','Dm','Dm','Em','Dm','Cm','Bb2m','Cm','|','Bb2m','Am','Am','Am',':|:','Cm','Dm','Dm','Dm','Dm','Em','Dm','Cm','Dm','Cm','Dm','Bb2m','|','Cm','Dm','Dm','Dm','Dm','Em','Dm','Cm','Bb2m','Cm','|','Bb2m','Am','Am','Am','Am','Am',':|'],
+  beats: [1/2,1/4,1/4,1/2,1/2,1/2,1/2,1/4,1/4,1/4,1/4,1/2,0,1/2,1/4,1/4,1/2,1/2,1/2,1/4,1/4,1/2,1/2,1/2,0,1/2,1/4,1/4,1/2,1/2,1,1/2,1/2,1/2,0,1/2,1/4,1/4,1/2,1/2,1/2,1/4,1/4,1/2,1/2,1/2,0,1/2,1/4,1/4,1/2,1/2,1/2,1/4,1/4,1/2,1/2,1/2,0,1/2,1/2,1/2,1/2,1/2,1/2,1/2,1,0,1,1,1/2,1/2,1,1/4,1/4,0,2,1/2,1/4,1/4,1/2,1,0,1/2,1/4,1/4,1/2,1/2,1/2,1/4,1/4,1/2,1/2,1/2,0,1/2,1/2,1/2,1/2,1/2,1/2,1/4,1/4,1/4,1/4,1/2,0,1/2,1/4,1/4,1/2,1/2,3/4,1/4,1/2,1/2,1/2,0,1/2,3/2,1,3/2,0,1/2,1/4,1/4,1/2,1/2,1/2,1/2,1/4,1/4,1/4,1/4,1/2,0,1/2,1/2,1/2,1/2,1/2,1/4,1/4,1/2,1/2,1/2,0,1/2,3/2,1,1/2,1/2,1/2,0],
+  lyrics: [' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','CE','Mİ','LE','NİN','GEZ','-','Dİ','Ğİ',' ','DAĞ','LAR','ME','-','ŞE','-','-',' ','Lİ','İ','MA','-','NIM','-',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','HAY','Dİ','ÜÇ','GÜN','OL','DU','-','-','-','-','-',' ','BEN','CE','Mİ','LEM','DEN','AY','-','RI','-','-',' ','DÜ','ŞE','Lİ',' ',' ','GAY','Dİ','Rİ','GUP','BAK','CE','Mİ','LEM','-','-','-','-',' ','NA','SIL','NA','SIL','E','DE','-','LİM','-','-',' ','BİZ','BU','İ','ŞE','-','-',' '],
+  fullLyrics: 'Cemilenin gezdiği dağlar meşeli (imanım) <br> Haydi üç gün oldu ben Cemilemden ayrı düşeli <br><br> Haydi de hopbak Cemilem nasıl nasıl edelim biz bu işe <br> Nikahımızı gıysın ünnen gelin hoca Memişe <br><br> Cemile gız ne gezersin hayatta (imanım) <br> Haydi basma fistan parlak da pabuç ayakda <br><br> Haydi de hopbak Cemilem nasıl nasıl edelim biz bu işe <br> Nikahımızı gıysın ünnen gelin hoca Memişe <br><br> Cemilenin fistanı saman sarısı (imanım) <br> Aman gören sancek Cemile gız muhtar garısı <br><br> Haydi de hopbak Cemilem nasıl nasıl edelim biz bu işe <br> Nikahımızı gıysın ünnen gelin hoca Memişe',
+  notation: `https://www.notaarsivleri.com/NotaMuzik/cemile'nin_gezdigi_daglar_meseli.pdf` 
+}
+
+export let allSongs = [havadaBulutYok,manastirinOrtasinda,tirenGelirHosGelir,agriDagindanUcdum,canakkaleIcindeAynaliCarsi,uzunInceBirYoldayim,izmirinKavaklari,hekimoglu,alliDurnam,denizUstuKopurur,kagizmanaIsmarladim,birFirtinaTuttuBizi,neAglarsinBenimZulfuSiyahim,karahisarKalesi,evlerininOnuBulgurKazani,kizilciklarOlduMu,ordununDereleri,urfaninEtrafi,pencereAcildi,cayirCimenGezeGeze,atesAttimSamana,igdirinAlAlmasi,kirmiziGulunAliVar,divaneAsikGibi,yarimSendenAyrilali,telgirafinTellerine,samanliktanGaldiramadimSamani,cemilem,acemGizi];
+
+
